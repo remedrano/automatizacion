@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oea:OEA xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oea="http://www.uniandes.edu.co/oea">
+  <persons xsi:type="oea:Man" name="Nicolas"/>
+  <persons xsi:type="oea:Women" name="Natalia"/>
+  <persons xsi:type="oea:Women" name="Laura"/>
+  <persons xsi:type="oea:Man" name="Henry"/>
+</oea:OEA>

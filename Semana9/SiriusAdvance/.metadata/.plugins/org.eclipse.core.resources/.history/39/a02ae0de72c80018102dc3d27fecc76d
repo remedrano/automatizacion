@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/table/description/1.1.0" name="oea" version="12.0.0.2017041100">
+  <ownedViewpoints name="oea" modelFileExtension="oea">
+    <ownedRepresentations xsi:type="description_1:CrossTableDescription" name="oea" domainClass="oea.OEA">
+      <ownedLineMappings name="Person Line" domainClass="oea.Person" semanticCandidatesExpression="feature:persons"/>
+      <ownedColumnMappings name="Country Column" domainClass="oea.Country" semanticCandidatesExpression="feature:countries"/>
+      <intersection name="IntersectionCountryPerson" lineMapping="//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedLineMappings[name='Person%20Line']" columnMapping="//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedColumnMappings.0" labelExpression="X" columnFinderExpression="[self.nationalities/]">
+        <defaultForeground>
+          <labelFormat>bold</labelFormat>
+          <labelFormat>italic</labelFormat>
+          <labelFormat>underline</labelFormat>
+          <foreGroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+        </defaultForeground>
+        <defaultBackground>
+          <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+        </defaultBackground>
+      </intersection>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:EditionTableDescription" name="oea edition" domainClass="oea.OEA"/>
+    <ownedJavaExtensions qualifiedClassName="oea.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

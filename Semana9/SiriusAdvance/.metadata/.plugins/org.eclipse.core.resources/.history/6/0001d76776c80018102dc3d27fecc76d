@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oea:OEA xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oea="http://www.uniandes.edu.co/oea">
+  <persons xsi:type="oea:Man" name="Nicolas" father="//@persons.0" mother="//@persons.2" nationalities="//@countries.0 //@countries.1"/>
+  <persons xsi:type="oea:Women" name="Natalia" father="//@persons.3" nationalities="//@countries.1"/>
+  <persons xsi:type="oea:Women" name="Laurall" father="//@persons.0" nationalities="//@countries.1"/>
+  <persons xsi:type="oea:Man" name="Henre" father="//@persons.0" mother="//@persons.2" nationalities="//@countries.0"/>
+  <persons xsi:type="oea:Man"/>
+  <persons xsi:type="oea:Man"/>
+  <countries name="Colombia"/>
+  <countries name="Venezuela"/>
+  <countries name="Country3"/>
+</oea:OEA>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:oea="http://www.uniandes.edu.co/oea" xmlns:table="http://www.eclipse.org/sirius/table/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/table/description/1.1.0 http://www.eclipse.org/sirius/table/1.1.0#//description">
+  <viewpoint:DAnalysis xmi:id="_4Hr2QMhvEeilFKgyqSx7MQ" selectedViews="_Fe4EYMhxEeilFKgyqSx7MQ" version="12.1.0.201708031200">
+    <semanticResources>organizacion.oea</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_Fe4EYMhxEeilFKgyqSx7MQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_uWUX8MhxEeilFKgyqSx7MQ" name="1_oea" repPath="#_uWPfcMhxEeilFKgyqSx7MQ">
+        <description xmi:type="description_1:CrossTableDescription" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']"/>
+        <target xmi:type="oea:OEA" href="organizacion.oea#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <table:DTable xmi:id="_uWTw4MhxEeilFKgyqSx7MQ" name="1_oea" uid="_uWPfcMhxEeilFKgyqSx7MQ" headerColumnWidth="15">
+    <target xmi:type="oea:OEA" href="organizacion.oea#/"/>
+    <description xmi:type="description_1:CrossTableDescription" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']"/>
+  </table:DTable>
+</xmi:XMI>

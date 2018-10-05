@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:oea="http://www.uniandes.edu.co/oea" xmlns:table="http://www.eclipse.org/sirius/table/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/table/description/1.1.0 http://www.eclipse.org/sirius/table/1.1.0#//description">
+  <viewpoint:DAnalysis xmi:id="_4Hr2QMhvEeilFKgyqSx7MQ" selectedViews="_Fe4EYMhxEeilFKgyqSx7MQ" version="12.1.0.201708031200">
+    <semanticResources>organizacion.oea</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_Fe4EYMhxEeilFKgyqSx7MQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_uWUX8MhxEeilFKgyqSx7MQ" name="1_oea" repPath="#_uWPfcMhxEeilFKgyqSx7MQ">
+        <description xmi:type="description_1:CrossTableDescription" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']"/>
+        <target xmi:type="oea:OEA" href="organizacion.oea#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_bxf8cMhyEeilFKgyqSx7MQ" name="new oea" repPath="#_bxWygMhyEeilFKgyqSx7MQ">
+        <description xmi:type="description_1:CrossTableDescription" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']"/>
+        <target xmi:type="oea:OEA" href="organizacion.oea#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_gN_88MhyEeilFKgyqSx7MQ" name="new oea" repPath="#_gN6dYMhyEeilFKgyqSx7MQ">
+        <description xmi:type="description_1:CrossTableDescription" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']"/>
+        <target xmi:type="oea:OEA" href="organizacion.oea#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_QiGPUMhzEeilFKgyqSx7MQ" name="1_oea edition" repPath="#_QcGVAMhzEeilFKgyqSx7MQ">
+        <description xmi:type="description_1:EditionTableDescription" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']"/>
+        <target xmi:type="oea:OEA" href="organizacion.oea#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_vdDEkMhzEeilFKgyqSx7MQ" name="mother_ oea edition" repPath="#_vc1pMMhzEeilFKgyqSx7MQ">
+        <description xmi:type="description_1:EditionTableDescription" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']"/>
+        <target xmi:type="oea:OEA" href="organizacion.oea#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_VM3f4Mh0EeilFKgyqSx7MQ" name="1_nombre_oea edition" repPath="#_VMuV8Mh0EeilFKgyqSx7MQ">
+        <description xmi:type="description_1:EditionTableDescription" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']"/>
+        <target xmi:type="oea:OEA" href="organizacion.oea#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_OACQUMh1EeilFKgyqSx7MQ" name="1_creacion_man_new oea" repPath="#_N_SCYMh1EeilFKgyqSx7MQ">
+        <description xmi:type="description_1:CrossTableDescription" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']"/>
+        <target xmi:type="oea:OEA" href="organizacion.oea#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <table:DTable xmi:id="_uWTw4MhxEeilFKgyqSx7MQ" name="1_oea" uid="_uWPfcMhxEeilFKgyqSx7MQ" headerColumnWidth="15">
+    <target xmi:type="oea:OEA" href="organizacion.oea#/"/>
+    <description xmi:type="description_1:CrossTableDescription" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']"/>
+  </table:DTable>
+  <table:DTable xmi:id="_bxeuUMhyEeilFKgyqSx7MQ" name="new oea" uid="_bxWygMhyEeilFKgyqSx7MQ" headerColumnWidth="127">
+    <target xmi:type="oea:OEA" href="organizacion.oea#/"/>
+    <lines xmi:type="table:DLine" xmi:id="_bxeuUshyEeilFKgyqSx7MQ" label="Man Nicolas">
+      <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedLineMappings[name='Person%20Line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_bxeuU8hyEeilFKgyqSx7MQ" label="X" column="_bxfVbMhyEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <currentStyle xmi:type="table:DCellStyle" xmi:id="_bxfVYMhyEeilFKgyqSx7MQ" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <labelFormat>underline</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+          <backgroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+        </currentStyle>
+        <intersectionMapping xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_bxfVYchyEeilFKgyqSx7MQ" label="X" column="_bxfVbchyEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <currentStyle xmi:type="table:DCellStyle" xmi:id="_bxfVYshyEeilFKgyqSx7MQ" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <labelFormat>underline</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+          <backgroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+        </currentStyle>
+        <intersectionMapping xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_bxfVY8hyEeilFKgyqSx7MQ" label="Women Natalia">
+      <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedLineMappings[name='Person%20Line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_bxfVZMhyEeilFKgyqSx7MQ" label="X" column="_bxfVbchyEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <currentStyle xmi:type="table:DCellStyle" xmi:id="_bxfVZchyEeilFKgyqSx7MQ" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <labelFormat>underline</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+          <backgroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+        </currentStyle>
+        <intersectionMapping xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_bxfVZshyEeilFKgyqSx7MQ" label="Women Laura">
+      <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedLineMappings[name='Person%20Line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_bxfVZ8hyEeilFKgyqSx7MQ" label="X" column="_bxfVbchyEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <currentStyle xmi:type="table:DCellStyle" xmi:id="_bxfVaMhyEeilFKgyqSx7MQ" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <labelFormat>underline</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+          <backgroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+        </currentStyle>
+        <intersectionMapping xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_bxfVachyEeilFKgyqSx7MQ" label="Man Henry">
+      <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedLineMappings[name='Person%20Line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_bxfVashyEeilFKgyqSx7MQ" label="X" column="_bxfVbMhyEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <currentStyle xmi:type="table:DCellStyle" xmi:id="_bxfVa8hyEeilFKgyqSx7MQ" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <labelFormat>underline</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+          <backgroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+        </currentStyle>
+        <intersectionMapping xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DTargetColumn" xmi:id="_bxfVbMhyEeilFKgyqSx7MQ" label="Country Colombia" cells="_bxeuU8hyEeilFKgyqSx7MQ _bxfVashyEeilFKgyqSx7MQ" width="141">
+      <target xmi:type="oea:Country" href="organizacion.oea#//@countries.0"/>
+      <semanticElements xmi:type="oea:Country" href="organizacion.oea#//@countries.0"/>
+      <originMapping xmi:type="description_1:ElementColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedColumnMappings.0"/>
+    </columns>
+    <columns xmi:type="table:DTargetColumn" xmi:id="_bxfVbchyEeilFKgyqSx7MQ" label="Country Venezuela" cells="_bxfVYchyEeilFKgyqSx7MQ _bxfVZMhyEeilFKgyqSx7MQ _bxfVZ8hyEeilFKgyqSx7MQ" width="141">
+      <target xmi:type="oea:Country" href="organizacion.oea#//@countries.1"/>
+      <semanticElements xmi:type="oea:Country" href="organizacion.oea#//@countries.1"/>
+      <originMapping xmi:type="description_1:ElementColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedColumnMappings.0"/>
+    </columns>
+    <description xmi:type="description_1:CrossTableDescription" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']"/>
+  </table:DTable>
+  <table:DTable xmi:id="_gN-u0MhyEeilFKgyqSx7MQ" name="new oea" uid="_gN6dYMhyEeilFKgyqSx7MQ" headerColumnWidth="127">
+    <target xmi:type="oea:OEA" href="organizacion.oea#/"/>
+    <lines xmi:type="table:DLine" xmi:id="_gN-u0shyEeilFKgyqSx7MQ" label="Man Nicolas">
+      <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedLineMappings[name='Person%20Line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_gN-u08hyEeilFKgyqSx7MQ" label="X" column="_gN-u4MhyEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <currentStyle xmi:type="table:DCellStyle" xmi:id="_gN-u1MhyEeilFKgyqSx7MQ" labelSize="12" defaultBackgroundStyle="true" backgroundColor="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <labelFormat>underline</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+          <backgroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+        </currentStyle>
+        <intersectionMapping xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_gN-u1chyEeilFKgyqSx7MQ" label="X" column="_gN-u4chyEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <currentStyle xmi:type="table:DCellStyle" xmi:id="_gN-u1shyEeilFKgyqSx7MQ" labelSize="12" defaultBackgroundStyle="true" backgroundColor="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <labelFormat>underline</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+          <backgroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+        </currentStyle>
+        <intersectionMapping xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_gN-u18hyEeilFKgyqSx7MQ" label="Women Natalia">
+      <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedLineMappings[name='Person%20Line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_gN-u2MhyEeilFKgyqSx7MQ" label="X" column="_gN-u4chyEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <currentStyle xmi:type="table:DCellStyle" xmi:id="_gN-u2chyEeilFKgyqSx7MQ" labelSize="12" defaultBackgroundStyle="true" backgroundColor="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <labelFormat>underline</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+          <backgroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+        </currentStyle>
+        <intersectionMapping xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_gN-u2shyEeilFKgyqSx7MQ" label="Women Laura">
+      <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedLineMappings[name='Person%20Line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_gN-u28hyEeilFKgyqSx7MQ" label="X" column="_gN-u4chyEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <currentStyle xmi:type="table:DCellStyle" xmi:id="_gN-u3MhyEeilFKgyqSx7MQ" labelSize="12" defaultBackgroundStyle="true" backgroundColor="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <labelFormat>underline</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+          <backgroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+        </currentStyle>
+        <intersectionMapping xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_gN-u3chyEeilFKgyqSx7MQ" label="Man Henry">
+      <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedLineMappings[name='Person%20Line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_gN-u3shyEeilFKgyqSx7MQ" label="X" column="_gN-u4MhyEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <currentStyle xmi:type="table:DCellStyle" xmi:id="_gN-u38hyEeilFKgyqSx7MQ" labelSize="12" defaultBackgroundStyle="true" backgroundColor="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <labelFormat>underline</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+          <backgroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+        </currentStyle>
+        <intersectionMapping xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DTargetColumn" xmi:id="_gN-u4MhyEeilFKgyqSx7MQ" label="Country Colombia" cells="_gN-u08hyEeilFKgyqSx7MQ _gN-u3shyEeilFKgyqSx7MQ" width="141">
+      <target xmi:type="oea:Country" href="organizacion.oea#//@countries.0"/>
+      <semanticElements xmi:type="oea:Country" href="organizacion.oea#//@countries.0"/>
+      <originMapping xmi:type="description_1:ElementColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedColumnMappings.0"/>
+    </columns>
+    <columns xmi:type="table:DTargetColumn" xmi:id="_gN-u4chyEeilFKgyqSx7MQ" label="Country Venezuela" cells="_gN-u1chyEeilFKgyqSx7MQ _gN-u2MhyEeilFKgyqSx7MQ _gN-u28hyEeilFKgyqSx7MQ" width="141">
+      <target xmi:type="oea:Country" href="organizacion.oea#//@countries.1"/>
+      <semanticElements xmi:type="oea:Country" href="organizacion.oea#//@countries.1"/>
+      <originMapping xmi:type="description_1:ElementColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedColumnMappings.0"/>
+    </columns>
+    <description xmi:type="description_1:CrossTableDescription" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']"/>
+  </table:DTable>
+  <table:DTable xmi:id="_QiFoQMhzEeilFKgyqSx7MQ" name="1_oea edition" uid="_QcGVAMhzEeilFKgyqSx7MQ" headerColumnWidth="127">
+    <target xmi:type="oea:OEA" href="organizacion.oea#/"/>
+    <lines xmi:type="table:DLine" xmi:id="_QiFoQshzEeilFKgyqSx7MQ" label="Man Nicolas">
+      <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedLineMappings[name='Person%20line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_QiFoQ8hzEeilFKgyqSx7MQ" label="[Colombia, Venezuela]" column="_QiFoTshzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_QiFoRMhzEeilFKgyqSx7MQ" label="Nicolas" column="_QiFoUMhzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_snwScMhzEeilFKgyqSx7MQ" label="Laurall" column="_snvrYMhzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_Penjoch0EeilFKgyqSx7MQ" label="Nicolas" column="_PenjoMh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_QiFoRchzEeilFKgyqSx7MQ" label="Women Natalia">
+      <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedLineMappings[name='Person%20line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_QiFoRshzEeilFKgyqSx7MQ" label="[Venezuela]" column="_QiFoTshzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_QiFoR8hzEeilFKgyqSx7MQ" label="Henre" column="_QiFoUMhzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_so6wEMhzEeilFKgyqSx7MQ" label="" column="_snvrYMhzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_PfQc0Mh0EeilFKgyqSx7MQ" label="Natalia" column="_PenjoMh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_QiFoSMhzEeilFKgyqSx7MQ" label="Women Laurall">
+      <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedLineMappings[name='Person%20line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_QiFoSchzEeilFKgyqSx7MQ" label="[Venezuela]" column="_QiFoTshzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_QiFoSshzEeilFKgyqSx7MQ" label="Nicolas" column="_QiFoUMhzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_spjpQMhzEeilFKgyqSx7MQ" label="" column="_snvrYMhzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_Pfo3UMh0EeilFKgyqSx7MQ" label="Laurall" column="_PenjoMh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_QiFoS8hzEeilFKgyqSx7MQ" label="Man Henre">
+      <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedLineMappings[name='Person%20line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_QiFoTMhzEeilFKgyqSx7MQ" label="[Colombia]" column="_QiFoTshzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_QiFoTchzEeilFKgyqSx7MQ" label="Nicolas" column="_QiFoUMhzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_splecMhzEeilFKgyqSx7MQ" label="Laurall" column="_snvrYMhzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_PfrTkMh0EeilFKgyqSx7MQ" label="Henre" column="_PenjoMh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_QiFoTshzEeilFKgyqSx7MQ" label="Nationalities" cells="_QiFoQ8hzEeilFKgyqSx7MQ _QiFoRshzEeilFKgyqSx7MQ _QiFoSchzEeilFKgyqSx7MQ _QiFoTMhzEeilFKgyqSx7MQ" width="127" featureName="nationalities">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedColumnMappings[name='Nationalities']"/>
+      <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_QiFoT8hzEeilFKgyqSx7MQ" defaultBackgroundStyle="true" backgroundColor="253,206,137"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_QiFoUMhzEeilFKgyqSx7MQ" label="Father" cells="_QiFoRMhzEeilFKgyqSx7MQ _QiFoR8hzEeilFKgyqSx7MQ _QiFoSshzEeilFKgyqSx7MQ _QiFoTchzEeilFKgyqSx7MQ" width="48" featureName="father">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedColumnMappings[name='Father']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_snvrYMhzEeilFKgyqSx7MQ" label="Mother" cells="_snwScMhzEeilFKgyqSx7MQ _so6wEMhzEeilFKgyqSx7MQ _spjpQMhzEeilFKgyqSx7MQ _splecMhzEeilFKgyqSx7MQ" width="54" featureName="mother">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedColumnMappings[name='Mother']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_PenjoMh0EeilFKgyqSx7MQ" label="Name" cells="_Penjoch0EeilFKgyqSx7MQ _PfQc0Mh0EeilFKgyqSx7MQ _Pfo3UMh0EeilFKgyqSx7MQ _PfrTkMh0EeilFKgyqSx7MQ" width="15" featureName="name">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedColumnMappings[name='Name']"/>
+    </columns>
+    <description xmi:type="description_1:EditionTableDescription" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']"/>
+  </table:DTable>
+  <table:DTable xmi:id="_vdCdgMhzEeilFKgyqSx7MQ" name="mother_ oea edition" uid="_vc1pMMhzEeilFKgyqSx7MQ" headerColumnWidth="127">
+    <target xmi:type="oea:OEA" href="organizacion.oea#/"/>
+    <lines xmi:type="table:DLine" xmi:id="_vdCdgshzEeilFKgyqSx7MQ" label="Man Nicolas">
+      <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedLineMappings[name='Person%20line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_vdCdg8hzEeilFKgyqSx7MQ" label="[Colombia, Venezuela]" column="_vdCdkshzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_vdCdhMhzEeilFKgyqSx7MQ" label="Nicolas" column="_vdCdlMhzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_vdCdhchzEeilFKgyqSx7MQ" label="Laurall" column="_vdCdlchzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_Pg3mYMh0EeilFKgyqSx7MQ" label="Nicolas" column="_Pg2_UMh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_vdCdhshzEeilFKgyqSx7MQ" label="Women Natalia">
+      <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedLineMappings[name='Person%20line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_vdCdh8hzEeilFKgyqSx7MQ" label="[Venezuela]" column="_vdCdkshzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_vdCdiMhzEeilFKgyqSx7MQ" label="Henre" column="_vdCdlMhzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_vdCdichzEeilFKgyqSx7MQ" label="" column="_vdCdlchzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_Pg7QwMh0EeilFKgyqSx7MQ" label="Natalia" column="_Pg2_UMh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_vdCdishzEeilFKgyqSx7MQ" label="Women Laurall">
+      <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedLineMappings[name='Person%20line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_vdCdi8hzEeilFKgyqSx7MQ" label="[Venezuela]" column="_vdCdkshzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_vdCdjMhzEeilFKgyqSx7MQ" label="Nicolas" column="_vdCdlMhzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_vdCdjchzEeilFKgyqSx7MQ" label="" column="_vdCdlchzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_Pg9F8Mh0EeilFKgyqSx7MQ" label="Laurall" column="_Pg2_UMh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_vdCdjshzEeilFKgyqSx7MQ" label="Man Henre">
+      <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedLineMappings[name='Person%20line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_vdCdj8hzEeilFKgyqSx7MQ" label="[Colombia]" column="_vdCdkshzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_vdCdkMhzEeilFKgyqSx7MQ" label="Nicolas" column="_vdCdlMhzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_vdCdkchzEeilFKgyqSx7MQ" label="Laurall" column="_vdCdlchzEeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_Pg_iMMh0EeilFKgyqSx7MQ" label="Henre" column="_Pg2_UMh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_vdCdkshzEeilFKgyqSx7MQ" label="Nationalities" cells="_vdCdg8hzEeilFKgyqSx7MQ _vdCdh8hzEeilFKgyqSx7MQ _vdCdi8hzEeilFKgyqSx7MQ _vdCdj8hzEeilFKgyqSx7MQ" width="127" featureName="nationalities">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedColumnMappings[name='Nationalities']"/>
+      <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_vdCdk8hzEeilFKgyqSx7MQ" defaultBackgroundStyle="true" backgroundColor="253,206,137"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_vdCdlMhzEeilFKgyqSx7MQ" label="Father" cells="_vdCdhMhzEeilFKgyqSx7MQ _vdCdiMhzEeilFKgyqSx7MQ _vdCdjMhzEeilFKgyqSx7MQ _vdCdkMhzEeilFKgyqSx7MQ" width="48" featureName="father">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedColumnMappings[name='Father']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_vdCdlchzEeilFKgyqSx7MQ" label="Mother" cells="_vdCdhchzEeilFKgyqSx7MQ _vdCdichzEeilFKgyqSx7MQ _vdCdjchzEeilFKgyqSx7MQ _vdCdkchzEeilFKgyqSx7MQ" width="54" featureName="mother">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedColumnMappings[name='Mother']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_Pg2_UMh0EeilFKgyqSx7MQ" label="Name" cells="_Pg3mYMh0EeilFKgyqSx7MQ _Pg7QwMh0EeilFKgyqSx7MQ _Pg9F8Mh0EeilFKgyqSx7MQ _Pg_iMMh0EeilFKgyqSx7MQ" featureName="name">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedColumnMappings[name='Name']"/>
+    </columns>
+    <description xmi:type="description_1:EditionTableDescription" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']"/>
+  </table:DTable>
+  <table:DTable xmi:id="_VM240Mh0EeilFKgyqSx7MQ" name="1_nombre_oea edition" uid="_VMuV8Mh0EeilFKgyqSx7MQ" headerColumnWidth="127">
+    <target xmi:type="oea:OEA" href="organizacion.oea#/"/>
+    <lines xmi:type="table:DLine" xmi:id="_VM240sh0EeilFKgyqSx7MQ" label="Man Nicolas">
+      <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedLineMappings[name='Person%20line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_VM2408h0EeilFKgyqSx7MQ" label="[Colombia, Venezuela]" column="_VM245sh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_VM241Mh0EeilFKgyqSx7MQ" label="Nicolas" column="_VM246Mh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_VM241ch0EeilFKgyqSx7MQ" label="Laurall" column="_VM246ch0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_VM241sh0EeilFKgyqSx7MQ" label="Nicolas" column="_VM246sh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_VM2418h0EeilFKgyqSx7MQ" label="Women Natalia">
+      <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedLineMappings[name='Person%20line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_VM242Mh0EeilFKgyqSx7MQ" label="[Venezuela]" column="_VM245sh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_VM242ch0EeilFKgyqSx7MQ" label="Henre" column="_VM246Mh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_VM242sh0EeilFKgyqSx7MQ" label="" column="_VM246ch0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_VM2428h0EeilFKgyqSx7MQ" label="Natalia" column="_VM246sh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_VM243Mh0EeilFKgyqSx7MQ" label="Women Laurall">
+      <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedLineMappings[name='Person%20line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_VM243ch0EeilFKgyqSx7MQ" label="[Venezuela]" column="_VM245sh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_VM243sh0EeilFKgyqSx7MQ" label="Nicolas" column="_VM246Mh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_VM2438h0EeilFKgyqSx7MQ" label="" column="_VM246ch0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_VM244Mh0EeilFKgyqSx7MQ" label="Laurall" column="_VM246sh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_VM244ch0EeilFKgyqSx7MQ" label="Man Henre">
+      <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedLineMappings[name='Person%20line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_VM244sh0EeilFKgyqSx7MQ" label="[Colombia]" column="_VM245sh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_VM2448h0EeilFKgyqSx7MQ" label="Nicolas" column="_VM246Mh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_VM245Mh0EeilFKgyqSx7MQ" label="Laurall" column="_VM246ch0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_VM245ch0EeilFKgyqSx7MQ" label="Henre" column="_VM246sh0EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_VM245sh0EeilFKgyqSx7MQ" label="Nationalities" cells="_VM2408h0EeilFKgyqSx7MQ _VM242Mh0EeilFKgyqSx7MQ _VM243ch0EeilFKgyqSx7MQ _VM244sh0EeilFKgyqSx7MQ" width="127" featureName="nationalities">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedColumnMappings[name='Nationalities']"/>
+      <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_VM2458h0EeilFKgyqSx7MQ" defaultBackgroundStyle="true" backgroundColor="253,206,137"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_VM246Mh0EeilFKgyqSx7MQ" label="Father" cells="_VM241Mh0EeilFKgyqSx7MQ _VM242ch0EeilFKgyqSx7MQ _VM243sh0EeilFKgyqSx7MQ _VM2448h0EeilFKgyqSx7MQ" width="135" featureName="father">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedColumnMappings[name='Father']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_VM246ch0EeilFKgyqSx7MQ" label="Mother" cells="_VM241ch0EeilFKgyqSx7MQ _VM242sh0EeilFKgyqSx7MQ _VM2438h0EeilFKgyqSx7MQ _VM245Mh0EeilFKgyqSx7MQ" width="54" featureName="mother">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedColumnMappings[name='Mother']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_VM246sh0EeilFKgyqSx7MQ" label="Name" cells="_VM241sh0EeilFKgyqSx7MQ _VM2428h0EeilFKgyqSx7MQ _VM244Mh0EeilFKgyqSx7MQ _VM245ch0EeilFKgyqSx7MQ" width="109" featureName="name">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']/@ownedColumnMappings[name='Name']"/>
+    </columns>
+    <description xmi:type="description_1:EditionTableDescription" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea%20edition']"/>
+  </table:DTable>
+  <table:DTable xmi:id="_OABpQMh1EeilFKgyqSx7MQ" name="1_creacion_man_new oea" uid="_N_SCYMh1EeilFKgyqSx7MQ" headerColumnWidth="127">
+    <target xmi:type="oea:OEA" href="organizacion.oea#/"/>
+    <lines xmi:type="table:DLine" xmi:id="_OABpQsh1EeilFKgyqSx7MQ" label="Man Nicolas">
+      <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedLineMappings[name='Person%20Line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_OABpQ8h1EeilFKgyqSx7MQ" label="X" column="_OABpUMh1EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <currentStyle xmi:type="table:DCellStyle" xmi:id="_OABpRMh1EeilFKgyqSx7MQ" labelSize="12" defaultBackgroundStyle="true" backgroundColor="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <labelFormat>underline</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+          <backgroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+        </currentStyle>
+        <intersectionMapping xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_OABpRch1EeilFKgyqSx7MQ" label="X" column="_OABpUch1EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.0"/>
+        <currentStyle xmi:type="table:DCellStyle" xmi:id="_OABpRsh1EeilFKgyqSx7MQ" labelSize="12" defaultBackgroundStyle="true" backgroundColor="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <labelFormat>underline</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+          <backgroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+        </currentStyle>
+        <intersectionMapping xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_OABpR8h1EeilFKgyqSx7MQ" label="Women Natalia">
+      <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedLineMappings[name='Person%20Line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_OABpSMh1EeilFKgyqSx7MQ" label="X" column="_OABpUch1EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.1"/>
+        <currentStyle xmi:type="table:DCellStyle" xmi:id="_OABpSch1EeilFKgyqSx7MQ" labelSize="12" defaultBackgroundStyle="true" backgroundColor="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <labelFormat>underline</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+          <backgroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+        </currentStyle>
+        <intersectionMapping xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_OABpSsh1EeilFKgyqSx7MQ" label="Women Laurall">
+      <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedLineMappings[name='Person%20Line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_OABpS8h1EeilFKgyqSx7MQ" label="X" column="_OABpUch1EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <semanticElements xmi:type="oea:Women" href="organizacion.oea#//@persons.2"/>
+        <currentStyle xmi:type="table:DCellStyle" xmi:id="_OABpTMh1EeilFKgyqSx7MQ" labelSize="12" defaultBackgroundStyle="true" backgroundColor="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <labelFormat>underline</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+          <backgroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+        </currentStyle>
+        <intersectionMapping xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_OABpTch1EeilFKgyqSx7MQ" label="Man Henre">
+      <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedLineMappings[name='Person%20Line']"/>
+      <cells xmi:type="table:DCell" xmi:id="_OABpTsh1EeilFKgyqSx7MQ" label="X" column="_OABpUMh1EeilFKgyqSx7MQ">
+        <target xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <semanticElements xmi:type="oea:Man" href="organizacion.oea#//@persons.3"/>
+        <currentStyle xmi:type="table:DCellStyle" xmi:id="_OABpT8h1EeilFKgyqSx7MQ" labelSize="12" defaultBackgroundStyle="true" backgroundColor="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <labelFormat>underline</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+          <backgroundStyleOrigin xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+        </currentStyle>
+        <intersectionMapping xmi:type="description_1:IntersectionMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@intersection.0"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DTargetColumn" xmi:id="_OABpUMh1EeilFKgyqSx7MQ" label="Country Colombia" cells="_OABpQ8h1EeilFKgyqSx7MQ _OABpTsh1EeilFKgyqSx7MQ" width="141">
+      <target xmi:type="oea:Country" href="organizacion.oea#//@countries.0"/>
+      <semanticElements xmi:type="oea:Country" href="organizacion.oea#//@countries.0"/>
+      <originMapping xmi:type="description_1:ElementColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedColumnMappings.0"/>
+    </columns>
+    <columns xmi:type="table:DTargetColumn" xmi:id="_OABpUch1EeilFKgyqSx7MQ" label="Country Venezuela" cells="_OABpRch1EeilFKgyqSx7MQ _OABpSMh1EeilFKgyqSx7MQ _OABpS8h1EeilFKgyqSx7MQ" width="141">
+      <target xmi:type="oea:Country" href="organizacion.oea#//@countries.1"/>
+      <semanticElements xmi:type="oea:Country" href="organizacion.oea#//@countries.1"/>
+      <originMapping xmi:type="description_1:ElementColumnMapping" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']/@ownedColumnMappings.0"/>
+    </columns>
+    <description xmi:type="description_1:CrossTableDescription" href="platform:/resource/oea.design/description/oea.odesign#//@ownedViewpoints[name='oea']/@ownedRepresentations[name='oea']"/>
+  </table:DTable>
+</xmi:XMI>
