@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:pnet="sistemas.uniandes.edu.co/metamodels/petrinet" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_5OUPgMhhEeiiMfQeTIqSTw" selectedViews="_Cr_OYMhjEeiiMfQeTIqSTw" version="12.1.0.201708031200">
+    <semanticResources>ModeloPetrinet.petrinet</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_Cr_OYMhjEeiiMfQeTIqSTw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_EQltXMhmEeiiMfQeTIqSTw" name="1_System Diagram" repPath="#_EQSLUMhmEeiiMfQeTIqSTw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='System%20Diagram']"/>
+        <target xmi:type="pnet:System" href="ModeloPetrinet.petrinet#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_HMuHashmEeiiMfQeTIqSTw" name="2_PetriNet Diagram" repPath="#_HL0vYMhmEeiiMfQeTIqSTw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']"/>
+        <target xmi:type="pnet:System" href="ModeloPetrinet.petrinet#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_EQltUMhmEeiiMfQeTIqSTw" name="1_System Diagram" uid="_EQSLUMhmEeiiMfQeTIqSTw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_EQltUchmEeiiMfQeTIqSTw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_EQltUshmEeiiMfQeTIqSTw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_EQ4oQMhmEeiiMfQeTIqSTw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_EQ4oQchmEeiiMfQeTIqSTw" type="Sirius" element="_EQltUMhmEeiiMfQeTIqSTw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_EQ4oQ8hmEeiiMfQeTIqSTw" type="2002" element="_EQltVMhmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_EQ4oRshmEeiiMfQeTIqSTw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_EQ4oR8hmEeiiMfQeTIqSTw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_EQ4oSMhmEeiiMfQeTIqSTw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_EQ4oSchmEeiiMfQeTIqSTw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_EQ4oRMhmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EQ4oRchmEeiiMfQeTIqSTw" y="130"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_EQ4oSshmEeiiMfQeTIqSTw" type="2002" element="_EQltVshmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_EQ4oTchmEeiiMfQeTIqSTw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_EQ4oTshmEeiiMfQeTIqSTw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_EQ4oT8hmEeiiMfQeTIqSTw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_EQ4oUMhmEeiiMfQeTIqSTw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_EQ4oS8hmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EQ4oTMhmEeiiMfQeTIqSTw"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_EQ4oQshmEeiiMfQeTIqSTw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_EQ4oUchmEeiiMfQeTIqSTw" type="4001" element="_EQltWMhmEeiiMfQeTIqSTw" source="_EQ4oQ8hmEeiiMfQeTIqSTw" target="_EQ4oSshmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_EQ4oVchmEeiiMfQeTIqSTw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EQ4oVshmEeiiMfQeTIqSTw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ERCZQMhmEeiiMfQeTIqSTw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ERCZQchmEeiiMfQeTIqSTw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ERCZQshmEeiiMfQeTIqSTw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ERCZQ8hmEeiiMfQeTIqSTw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_EQ4oUshmEeiiMfQeTIqSTw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_EQ4oU8hmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EQ4oVMhmEeiiMfQeTIqSTw" points="[-1, 0, -1, 60]$[-1, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ERCZRMhmEeiiMfQeTIqSTw" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ERCZRchmEeiiMfQeTIqSTw" id="(0.5067567567567568,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_EQltVMhmEeiiMfQeTIqSTw" name="Net1" outgoingEdges="_EQltWMhmEeiiMfQeTIqSTw">
+      <target xmi:type="pnet:PetriNet" href="ModeloPetrinet.petrinet#//@petrinets.0"/>
+      <semanticElements xmi:type="pnet:PetriNet" href="ModeloPetrinet.petrinet#//@petrinets.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_EQltVchmEeiiMfQeTIqSTw" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='System%20Diagram']/@defaultLayer/@containerMappings[name='PetrinetContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='System%20Diagram']/@defaultLayer/@containerMappings[name='PetrinetContainer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_EQltVshmEeiiMfQeTIqSTw" name="Net2" incomingEdges="_EQltWMhmEeiiMfQeTIqSTw">
+      <target xmi:type="pnet:PetriNet" href="ModeloPetrinet.petrinet#//@petrinets.1"/>
+      <semanticElements xmi:type="pnet:PetriNet" href="ModeloPetrinet.petrinet#//@petrinets.1"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_EQltV8hmEeiiMfQeTIqSTw" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='System%20Diagram']/@defaultLayer/@containerMappings[name='PetrinetContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='System%20Diagram']/@defaultLayer/@containerMappings[name='PetrinetContainer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_EQltWMhmEeiiMfQeTIqSTw" sourceNode="_EQltVMhmEeiiMfQeTIqSTw" targetNode="_EQltVshmEeiiMfQeTIqSTw">
+      <target xmi:type="pnet:PetriNetRelationship" href="ModeloPetrinet.petrinet#//@petrinetrelationships.0"/>
+      <semanticElements xmi:type="pnet:PetriNetRelationship" href="ModeloPetrinet.petrinet#//@petrinetrelationships.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_EQltWchmEeiiMfQeTIqSTw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='System%20Diagram']/@defaultLayer/@edgeMappings[name='NetPetrinetRelationship']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_EQltWshmEeiiMfQeTIqSTw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='System%20Diagram']/@defaultLayer/@edgeMappings[name='NetPetrinetRelationship']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='System%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_EQltW8hmEeiiMfQeTIqSTw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='System%20Diagram']/@defaultLayer"/>
+    <target xmi:type="pnet:System" href="ModeloPetrinet.petrinet#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_HMuHQMhmEeiiMfQeTIqSTw" name="2_PetriNet Diagram" uid="_HL0vYMhmEeiiMfQeTIqSTw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_HMuHQchmEeiiMfQeTIqSTw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_HMuHQshmEeiiMfQeTIqSTw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_HM34QMhmEeiiMfQeTIqSTw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_HM34QchmEeiiMfQeTIqSTw" type="Sirius" element="_HMuHQMhmEeiiMfQeTIqSTw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_HM34Q8hmEeiiMfQeTIqSTw" type="2001" element="_HMuHRMhmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_HM34RshmEeiiMfQeTIqSTw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_HM34R8hmEeiiMfQeTIqSTw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNBCU8hmEeiiMfQeTIqSTw" type="3016" element="_HMuHRchmEeiiMfQeTIqSTw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_HNBCVMhmEeiiMfQeTIqSTw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNBCVchmEeiiMfQeTIqSTw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HM34RMhmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HM34RchmEeiiMfQeTIqSTw" y="750" width="100" height="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HNBCMMhmEeiiMfQeTIqSTw" type="2001" element="_HMuHRshmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_HNBCM8hmEeiiMfQeTIqSTw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_HNBCNMhmEeiiMfQeTIqSTw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNKzMMhmEeiiMfQeTIqSTw" type="3016" element="_HMuHR8hmEeiiMfQeTIqSTw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_HNKzMchmEeiiMfQeTIqSTw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNKzMshmEeiiMfQeTIqSTw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HNBCMchmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNBCMshmEeiiMfQeTIqSTw" y="500" width="100" height="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HNBCNchmEeiiMfQeTIqSTw" type="2001" element="_HMuHSMhmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_HNBCOMhmEeiiMfQeTIqSTw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_HNBCOchmEeiiMfQeTIqSTw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNKzM8hmEeiiMfQeTIqSTw" type="3016" element="_HMuHSchmEeiiMfQeTIqSTw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_HNKzNMhmEeiiMfQeTIqSTw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNKzNchmEeiiMfQeTIqSTw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HNBCNshmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNBCN8hmEeiiMfQeTIqSTw" y="250" width="100" height="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HNBCOshmEeiiMfQeTIqSTw" type="2001" element="_HMuHSshmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_HNBCPchmEeiiMfQeTIqSTw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_HNBCPshmEeiiMfQeTIqSTw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNKzNshmEeiiMfQeTIqSTw" type="3016" element="_HMuHS8hmEeiiMfQeTIqSTw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_HNKzN8hmEeiiMfQeTIqSTw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNKzOMhmEeiiMfQeTIqSTw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HNBCO8hmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNBCPMhmEeiiMfQeTIqSTw" width="100" height="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HNBCP8hmEeiiMfQeTIqSTw" type="2001" element="_HMuHTMhmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_HNBCQshmEeiiMfQeTIqSTw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_HNBCQ8hmEeiiMfQeTIqSTw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNKzOchmEeiiMfQeTIqSTw" type="3003" element="_HMuHTchmEeiiMfQeTIqSTw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_HNKzOshmEeiiMfQeTIqSTw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNKzO8hmEeiiMfQeTIqSTw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HNBCQMhmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNBCQchmEeiiMfQeTIqSTw" x="35" y="910" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HNBCRMhmEeiiMfQeTIqSTw" type="2001" element="_HMuHTshmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_HNBCR8hmEeiiMfQeTIqSTw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_HNBCSMhmEeiiMfQeTIqSTw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNKzPMhmEeiiMfQeTIqSTw" type="3003" element="_HMuHT8hmEeiiMfQeTIqSTw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_HNKzPchmEeiiMfQeTIqSTw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNKzPshmEeiiMfQeTIqSTw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HNBCRchmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNBCRshmEeiiMfQeTIqSTw" x="35" y="660" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HNBCSchmEeiiMfQeTIqSTw" type="2001" element="_HMuHUMhmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_HNBCTMhmEeiiMfQeTIqSTw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_HNBCTchmEeiiMfQeTIqSTw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNKzP8hmEeiiMfQeTIqSTw" type="3003" element="_HMuHUchmEeiiMfQeTIqSTw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_HNKzQMhmEeiiMfQeTIqSTw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNKzQchmEeiiMfQeTIqSTw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HNBCSshmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNBCS8hmEeiiMfQeTIqSTw" x="35" y="410" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HNBCTshmEeiiMfQeTIqSTw" type="2001" element="_HMuHUshmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_HNBCUchmEeiiMfQeTIqSTw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_HNBCUshmEeiiMfQeTIqSTw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNKzQshmEeiiMfQeTIqSTw" type="3003" element="_HMuHU8hmEeiiMfQeTIqSTw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_HNKzQ8hmEeiiMfQeTIqSTw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNKzRMhmEeiiMfQeTIqSTw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HNBCT8hmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNBCUMhmEeiiMfQeTIqSTw" x="35" y="160" width="30" height="30"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_HM34QshmEeiiMfQeTIqSTw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_HNKzRchmEeiiMfQeTIqSTw" type="4001" element="_HMuHVMhmEeiiMfQeTIqSTw" source="_HM34Q8hmEeiiMfQeTIqSTw" target="_HNBCRMhmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_HNKzSchmEeiiMfQeTIqSTw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNKzSshmEeiiMfQeTIqSTw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNKzS8hmEeiiMfQeTIqSTw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNKzTMhmEeiiMfQeTIqSTw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNKzTchmEeiiMfQeTIqSTw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNKzTshmEeiiMfQeTIqSTw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_HNKzRshmEeiiMfQeTIqSTw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_HNKzR8hmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HNKzSMhmEeiiMfQeTIqSTw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HNKzT8hmEeiiMfQeTIqSTw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HNKzUMhmEeiiMfQeTIqSTw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_HNKzUchmEeiiMfQeTIqSTw" type="4001" element="_HMuHV8hmEeiiMfQeTIqSTw" source="_HNBCMMhmEeiiMfQeTIqSTw" target="_HNBCSchmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_HNKzVchmEeiiMfQeTIqSTw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNKzVshmEeiiMfQeTIqSTw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNKzV8hmEeiiMfQeTIqSTw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNKzWMhmEeiiMfQeTIqSTw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNKzWchmEeiiMfQeTIqSTw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNKzWshmEeiiMfQeTIqSTw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_HNKzUshmEeiiMfQeTIqSTw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_HNKzU8hmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HNKzVMhmEeiiMfQeTIqSTw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HNKzW8hmEeiiMfQeTIqSTw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HNKzXMhmEeiiMfQeTIqSTw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_HNKzXchmEeiiMfQeTIqSTw" type="4001" element="_HMuHWshmEeiiMfQeTIqSTw" source="_HNBCNchmEeiiMfQeTIqSTw" target="_HNBCTshmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_HNKzYchmEeiiMfQeTIqSTw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNKzYshmEeiiMfQeTIqSTw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNKzY8hmEeiiMfQeTIqSTw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNKzZMhmEeiiMfQeTIqSTw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNT9IMhmEeiiMfQeTIqSTw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNT9IchmEeiiMfQeTIqSTw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_HNKzXshmEeiiMfQeTIqSTw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_HNKzX8hmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HNKzYMhmEeiiMfQeTIqSTw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HNT9IshmEeiiMfQeTIqSTw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HNT9I8hmEeiiMfQeTIqSTw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_HNT9JMhmEeiiMfQeTIqSTw" type="4001" element="_HMuHXchmEeiiMfQeTIqSTw" source="_HNBCP8hmEeiiMfQeTIqSTw" target="_HM34Q8hmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_HNT9KMhmEeiiMfQeTIqSTw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNT9KchmEeiiMfQeTIqSTw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNT9KshmEeiiMfQeTIqSTw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNT9K8hmEeiiMfQeTIqSTw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNT9LMhmEeiiMfQeTIqSTw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNT9LchmEeiiMfQeTIqSTw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_HNT9JchmEeiiMfQeTIqSTw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_HNT9JshmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HNT9J8hmEeiiMfQeTIqSTw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HNT9LshmEeiiMfQeTIqSTw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HNT9L8hmEeiiMfQeTIqSTw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_HNT9MMhmEeiiMfQeTIqSTw" type="4001" element="_HMuHYMhmEeiiMfQeTIqSTw" source="_HNBCRMhmEeiiMfQeTIqSTw" target="_HNBCMMhmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_HNT9NMhmEeiiMfQeTIqSTw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNT9NchmEeiiMfQeTIqSTw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNT9NshmEeiiMfQeTIqSTw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNT9N8hmEeiiMfQeTIqSTw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNT9OMhmEeiiMfQeTIqSTw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNT9OchmEeiiMfQeTIqSTw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_HNT9MchmEeiiMfQeTIqSTw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_HNT9MshmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HNT9M8hmEeiiMfQeTIqSTw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HNT9OshmEeiiMfQeTIqSTw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HNT9O8hmEeiiMfQeTIqSTw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_HNT9PMhmEeiiMfQeTIqSTw" type="4001" element="_HMuHY8hmEeiiMfQeTIqSTw" source="_HNBCSchmEeiiMfQeTIqSTw" target="_HNBCNchmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_HNT9QMhmEeiiMfQeTIqSTw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNT9QchmEeiiMfQeTIqSTw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNT9QshmEeiiMfQeTIqSTw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNT9Q8hmEeiiMfQeTIqSTw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNT9RMhmEeiiMfQeTIqSTw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNT9RchmEeiiMfQeTIqSTw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_HNT9PchmEeiiMfQeTIqSTw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_HNT9PshmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HNT9P8hmEeiiMfQeTIqSTw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HNT9RshmEeiiMfQeTIqSTw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HNT9R8hmEeiiMfQeTIqSTw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_HNT9SMhmEeiiMfQeTIqSTw" type="4001" element="_HMuHZshmEeiiMfQeTIqSTw" source="_HNBCTshmEeiiMfQeTIqSTw" target="_HNBCOshmEeiiMfQeTIqSTw">
+          <children xmi:type="notation:Node" xmi:id="_HNT9TMhmEeiiMfQeTIqSTw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNT9TchmEeiiMfQeTIqSTw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNT9TshmEeiiMfQeTIqSTw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNT9T8hmEeiiMfQeTIqSTw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HNT9UMhmEeiiMfQeTIqSTw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNT9UchmEeiiMfQeTIqSTw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_HNT9SchmEeiiMfQeTIqSTw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_HNT9SshmEeiiMfQeTIqSTw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HNT9S8hmEeiiMfQeTIqSTw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HNT9UshmEeiiMfQeTIqSTw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HNT9U8hmEeiiMfQeTIqSTw" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_HMuHRMhmEeiiMfQeTIqSTw" name="P1" tooltipText="Elipse figura" outgoingEdges="_HMuHVMhmEeiiMfQeTIqSTw" incomingEdges="_HMuHXchmEeiiMfQeTIqSTw" width="10" height="10" resizeKind="NSEW">
+      <target xmi:type="pnet:Place" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.3"/>
+      <semanticElements xmi:type="pnet:Place" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.3"/>
+      <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_HMuHRchmEeiiMfQeTIqSTw" labelPosition="node" horizontalDiameter="10" verticalDiameter="10" color="204,242,166">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@nodeMappings[name='Place%20Node']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@nodeMappings[name='Place%20Node']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_HMuHRshmEeiiMfQeTIqSTw" name="P2" tooltipText="Elipse figura" outgoingEdges="_HMuHV8hmEeiiMfQeTIqSTw" incomingEdges="_HMuHYMhmEeiiMfQeTIqSTw" width="10" height="10" resizeKind="NSEW">
+      <target xmi:type="pnet:Place" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.4"/>
+      <semanticElements xmi:type="pnet:Place" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.4"/>
+      <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_HMuHR8hmEeiiMfQeTIqSTw" labelPosition="node" horizontalDiameter="10" verticalDiameter="10" color="204,242,166">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@nodeMappings[name='Place%20Node']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@nodeMappings[name='Place%20Node']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_HMuHSMhmEeiiMfQeTIqSTw" name="NP1" tooltipText="Elipse figura" outgoingEdges="_HMuHWshmEeiiMfQeTIqSTw" incomingEdges="_HMuHY8hmEeiiMfQeTIqSTw" width="10" height="10" resizeKind="NSEW">
+      <target xmi:type="pnet:Place" href="ModeloPetrinet.petrinet#//@petrinets.1/@elements.0"/>
+      <semanticElements xmi:type="pnet:Place" href="ModeloPetrinet.petrinet#//@petrinets.1/@elements.0"/>
+      <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_HMuHSchmEeiiMfQeTIqSTw" labelPosition="node" horizontalDiameter="10" verticalDiameter="10" color="204,242,166">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@nodeMappings[name='Place%20Node']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@nodeMappings[name='Place%20Node']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_HMuHSshmEeiiMfQeTIqSTw" name="NP2" tooltipText="Elipse figura" incomingEdges="_HMuHZshmEeiiMfQeTIqSTw" width="10" height="10" resizeKind="NSEW">
+      <target xmi:type="pnet:Place" href="ModeloPetrinet.petrinet#//@petrinets.1/@elements.1"/>
+      <semanticElements xmi:type="pnet:Place" href="ModeloPetrinet.petrinet#//@petrinets.1/@elements.1"/>
+      <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_HMuHS8hmEeiiMfQeTIqSTw" labelPosition="node" horizontalDiameter="10" verticalDiameter="10" color="204,242,166">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@nodeMappings[name='Place%20Node']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@nodeMappings[name='Place%20Node']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_HMuHTMhmEeiiMfQeTIqSTw" name="T1" outgoingEdges="_HMuHXchmEeiiMfQeTIqSTw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="pnet:Transition" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.0"/>
+      <semanticElements xmi:type="pnet:Transition" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.0"/>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_HMuHTchmEeiiMfQeTIqSTw" labelPosition="node" width="10" color="246,139,139">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_HMuHTshmEeiiMfQeTIqSTw" name="T2" outgoingEdges="_HMuHYMhmEeiiMfQeTIqSTw" incomingEdges="_HMuHVMhmEeiiMfQeTIqSTw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="pnet:Transition" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.1"/>
+      <semanticElements xmi:type="pnet:Transition" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.1"/>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_HMuHT8hmEeiiMfQeTIqSTw" labelPosition="node" width="10" color="246,139,139">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_HMuHUMhmEeiiMfQeTIqSTw" name="T3" outgoingEdges="_HMuHY8hmEeiiMfQeTIqSTw" incomingEdges="_HMuHV8hmEeiiMfQeTIqSTw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="pnet:Transition" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.2"/>
+      <semanticElements xmi:type="pnet:Transition" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.2"/>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_HMuHUchmEeiiMfQeTIqSTw" labelPosition="node" width="10" color="246,139,139">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_HMuHUshmEeiiMfQeTIqSTw" name="NT1" outgoingEdges="_HMuHZshmEeiiMfQeTIqSTw" incomingEdges="_HMuHWshmEeiiMfQeTIqSTw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="pnet:Transition" href="ModeloPetrinet.petrinet#//@petrinets.1/@elements.2"/>
+      <semanticElements xmi:type="pnet:Transition" href="ModeloPetrinet.petrinet#//@petrinets.1/@elements.2"/>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_HMuHU8hmEeiiMfQeTIqSTw" labelPosition="node" width="10" color="246,139,139">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_HMuHVMhmEeiiMfQeTIqSTw" sourceNode="_HMuHRMhmEeiiMfQeTIqSTw" targetNode="_HMuHTshmEeiiMfQeTIqSTw">
+      <target xmi:type="pnet:InputArc" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.7"/>
+      <semanticElements xmi:type="pnet:InputArc" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_HMuHVchmEeiiMfQeTIqSTw" size="2" strokeColor="194,239,255">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@edgeMappings[name='InputArc']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_HMuHVshmEeiiMfQeTIqSTw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@edgeMappings[name='InputArc']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_HMuHV8hmEeiiMfQeTIqSTw" sourceNode="_HMuHRshmEeiiMfQeTIqSTw" targetNode="_HMuHUMhmEeiiMfQeTIqSTw">
+      <target xmi:type="pnet:InputArc" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.8"/>
+      <semanticElements xmi:type="pnet:InputArc" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.8"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_HMuHWMhmEeiiMfQeTIqSTw" size="2" strokeColor="194,239,255">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@edgeMappings[name='InputArc']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_HMuHWchmEeiiMfQeTIqSTw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@edgeMappings[name='InputArc']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_HMuHWshmEeiiMfQeTIqSTw" sourceNode="_HMuHSMhmEeiiMfQeTIqSTw" targetNode="_HMuHUshmEeiiMfQeTIqSTw">
+      <target xmi:type="pnet:InputArc" href="ModeloPetrinet.petrinet#//@petrinets.1/@elements.4"/>
+      <semanticElements xmi:type="pnet:InputArc" href="ModeloPetrinet.petrinet#//@petrinets.1/@elements.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_HMuHW8hmEeiiMfQeTIqSTw" size="2" strokeColor="194,239,255">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@edgeMappings[name='InputArc']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_HMuHXMhmEeiiMfQeTIqSTw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@edgeMappings[name='InputArc']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_HMuHXchmEeiiMfQeTIqSTw" sourceNode="_HMuHTMhmEeiiMfQeTIqSTw" targetNode="_HMuHRMhmEeiiMfQeTIqSTw">
+      <target xmi:type="pnet:OutputArc" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.5"/>
+      <semanticElements xmi:type="pnet:OutputArc" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.5"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_HMuHXshmEeiiMfQeTIqSTw" size="2" strokeColor="255,245,181">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@edgeMappings[name='OutputArc']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_HMuHX8hmEeiiMfQeTIqSTw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@edgeMappings[name='OutputArc']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_HMuHYMhmEeiiMfQeTIqSTw" sourceNode="_HMuHTshmEeiiMfQeTIqSTw" targetNode="_HMuHRshmEeiiMfQeTIqSTw">
+      <target xmi:type="pnet:OutputArc" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.6"/>
+      <semanticElements xmi:type="pnet:OutputArc" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.6"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_HMuHYchmEeiiMfQeTIqSTw" size="2" strokeColor="255,245,181">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@edgeMappings[name='OutputArc']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_HMuHYshmEeiiMfQeTIqSTw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@edgeMappings[name='OutputArc']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_HMuHY8hmEeiiMfQeTIqSTw" sourceNode="_HMuHUMhmEeiiMfQeTIqSTw" targetNode="_HMuHSMhmEeiiMfQeTIqSTw">
+      <target xmi:type="pnet:OutputArc" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.9"/>
+      <semanticElements xmi:type="pnet:OutputArc" href="ModeloPetrinet.petrinet#//@petrinets.0/@elements.9"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_HMuHZMhmEeiiMfQeTIqSTw" size="2" strokeColor="255,245,181">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@edgeMappings[name='OutputArc']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_HMuHZchmEeiiMfQeTIqSTw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@edgeMappings[name='OutputArc']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_HMuHZshmEeiiMfQeTIqSTw" sourceNode="_HMuHUshmEeiiMfQeTIqSTw" targetNode="_HMuHSshmEeiiMfQeTIqSTw">
+      <target xmi:type="pnet:OutputArc" href="ModeloPetrinet.petrinet#//@petrinets.1/@elements.3"/>
+      <semanticElements xmi:type="pnet:OutputArc" href="ModeloPetrinet.petrinet#//@petrinets.1/@elements.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_HMuHZ8hmEeiiMfQeTIqSTw" size="2" strokeColor="255,245,181">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@edgeMappings[name='OutputArc']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_HMuHaMhmEeiiMfQeTIqSTw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer/@edgeMappings[name='OutputArc']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_HMuHachmEeiiMfQeTIqSTw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/petrinet.project.design/description/petrinet.odesign#//@ownedViewpoints[name='petrinet']/@ownedRepresentations[name='PetriNet%20Diagram']/@defaultLayer"/>
+    <target xmi:type="pnet:System" href="ModeloPetrinet.petrinet#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
