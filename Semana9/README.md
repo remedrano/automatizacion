@@ -32,6 +32,10 @@
 
 <img src="https://github.com/remedrano/automatizacionTalleres/blob/master/Semana9/SiriusBasic/Imagenes/imagen5.png" alt="Anexo 5" >
 
+<h4>Anexo 6</h4>
+
+<img src="https://github.com/remedrano/automatizacionTalleres/blob/master/Semana9/SiriusBasic/Imagenes/imagen6.png" alt="Anexo 6" >
+
 <br>
 <br>
 
@@ -40,3 +44,25 @@
 <h4>Anexo 1</h4>
 
 <img src="https://github.com/remedrano/automatizacionTalleres/blob/master/Semana9/SiriusAdvance/imagenes/imagen1.png" alt="Anexo 1" >
+
+<h4>Anexo 2</h4>
+
+<img src="https://github.com/remedrano/automatizacionTalleres/blob/master/Semana9/SiriusAdvance/imagenes/imagen2.png" alt="Anexo 2" >
+
+<h4>Anexo 3</h4>
+
+<img src="https://github.com/remedrano/automatizacionTalleres/blob/master/Semana9/SiriusAdvance/imagenes/imagen3.png" alt="Anexo 3" >
+
+<h4>Anexo 4</h4>
+
+<img src="https://github.com/remedrano/automatizacionTalleres/blob/master/Semana9/SiriusAdvance/imagenes/imagen4.png" alt="Anexo 4" >
+
+<h4>Anexo 5</h4>
+
+<img src="https://github.com/remedrano/automatizacionTalleres/blob/master/Semana9/SiriusAdvance/imagenes/imagen5.png" alt="Anexo 5" >
+
+<h4>Anexo 6</h4>
+
+<img src="https://github.com/remedrano/automatizacionTalleres/blob/master/Semana9/SiriusAdvance/imagenes/imagen6.png" alt="Anexo 6" >
+
+
