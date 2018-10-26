@@ -14,7 +14,10 @@ $(function () {
   var seriesFinal=[];
   
   [%
-  var gf=series!Grafica.all.at(0);
+  
+  
+  var gf=series!Grafica.all.at(1);
+  gf.graficaSerie.println();
   //Se crea un array con los elementos del eje x
   for(ct in gf.graficaEjeX.at(0).ejeXCategoria){
   %]
