@@ -22,8 +22,8 @@ rule Results2Dato
 	transform
 	    s:jm!Results
 	to
-	    t:series!Dato{    
-		    t.name=s.result.last().value;
+	    t:series!Dato{    	   
+		    t.name=s.result.get(11).value; //latency se encuentra en la posicion 1 de resultados
 	    }
     
     
@@ -40,6 +40,6 @@ rule Results2Categoria
 	transform
 	    s:jm!Results
 	to
-	    t:series!Categoria{    
-		    t.name=s.result.last().value;
+	    t:series!Categoria{    	     
+		    t.name=s.result.get(1).value; //elapsed se encuentra en la posicion 1 de resultados
 	    }

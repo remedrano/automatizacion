@@ -2,11 +2,13 @@
 <launchConfiguration type="org.epsilon.egl.eclipse.dt.launching.EglLaunchConfigurationDelegate">
 <booleanAttribute key="appendToFile" value="false"/>
 <listAttribute key="defaultFormatters"/>
+<intAttribute key="egxGenerateTo" value="1"/>
 <booleanAttribute key="fine_grained_profiling" value="false"/>
 <intAttribute key="generateTo" value="1"/>
 <listAttribute key="models">
-<listEntry value="#Thu Sep 08 17:44:26 COT 2016&#13;&#10;isMetamodelFileBased=false&#13;&#10;name=series&#13;&#10;readOnLoad=true&#13;&#10;storeOnDisposal=false&#13;&#10;aliases=series&#13;&#10;cached=true&#13;&#10;fileBasedMetamodelUri=&#13;&#10;metamodelUri=http\://www.example.org/series&#13;&#10;modelUri=platform\:/resource/TransformacionJMeterSeries/models/Grafica2.xmi&#13;&#10;reuseUnmodifiedFileBasedMetamodels=true&#13;&#10;type=EMF&#13;&#10;modelFile=/TransformacionJMeterSeries/models/Grafica2.xmi&#13;&#10;expand=true&#13;&#10;metamodelFile="/>
+<listEntry value="#Thu Oct 25 23:59:52 COT 2018&#13;&#10;isMetamodelFileBased=false&#13;&#10;name=series&#13;&#10;readOnLoad=true&#13;&#10;storeOnDisposal=false&#13;&#10;aliases=series&#13;&#10;cached=true&#13;&#10;fileBasedMetamodelUri=&#13;&#10;metamodelUri=http\://www.example.org/series&#13;&#10;modelUri=platform\:/resource/TransformacionJMeterSeries/models/Grafica2.xmi&#13;&#10;reuseUnmodifiedFileBasedMetamodels=true&#13;&#10;type=EMF&#13;&#10;modelFile=/TransformacionJMeterSeries/models/Grafica2.xmi&#13;&#10;expand=true&#13;&#10;metamodelFile="/>
 </listAttribute>
+<stringAttribute key="outputDirPath" value=""/>
 <stringAttribute key="outputFilePath" value=""/>
 <listAttribute key="parameters"/>
 <booleanAttribute key="produceTrace" value="false"/>
