@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="series" nsURI="http://www.example.org/series" nsPrefix="series">
+  <eClassifiers xsi:type="ecore:EClass" name="Grafica">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="titulo" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="subtitulo" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="tipo" eType="#//TipoGrafica"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="graficaSerie" upperBound="-1"
+        eType="#//Serie" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="graficaEjeX" upperBound="-1"
+        eType="#//EjeX" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="graficaEjeY" upperBound="-1"
+        eType="#//EjeY" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="TipoGrafica">
+    <eLiterals name="stackedColumn"/>
+    <eLiterals name="basicColumn"/>
+    <eLiterals name="basicBar"/>
+    <eLiterals name="lineChart"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Dato">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Serie">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="serieDato" upperBound="-1"
+        eType="#//Dato" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Categoria">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EjeX">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ejeXCategoria" lowerBound="1"
+        upperBound="-1" eType="#//Categoria" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EjeY">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+</ecore:EPackage>

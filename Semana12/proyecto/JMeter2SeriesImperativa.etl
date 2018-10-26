@@ -1,0 +1,25 @@
+pre{
+	jm!JMeter.all.collect(d|d.getGrafica());
+}
+operation jm!JMeter getGrafica(): series!Grafica {
+	var g= new series!Grafica;
+	g.titulo="Basic Column";
+	g.subtitulo="";
+	g.tipo=series!TipoGrafica#basicColumn;   
+	g.graficaSerie=self.architectureResults.collect(c|c.getSerie());
+	return g;
+}
+operation jm!ArchitectureResults getSerie(): series!Serie {
+	var s= new series!Serie;
+	s.name=self.architecture;    
+	s.serieDato=self.results.collect(c|c.getDato());
+	return s;
+}   
+operation jm!Results getDato(): series!Dato {   
+	var d= new series!Dato;
+	d.name=self.result.last().value;
+	return d;    
+} 
+        
+    
+    

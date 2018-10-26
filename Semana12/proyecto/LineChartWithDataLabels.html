@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Line Chart With Data Labels</title>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+<script type="text/javascript">
+$(function () {
+
+  var categorias=[];
+  var seriesFinal=[];
+  
+  categorias.push('2158')
+  categorias.push('2344')
+  categorias.push('2509')
+  categorias.push('2580')
+  categorias.push('2775')
+  categorias.push('2838')
+  categorias.push('2856')
+  categorias.push('2915')
+  categorias.push('2917')
+  categorias.push('3074')
+  categorias.push('3177')
+  categorias.push('3271')
+  categorias.push('3573')
+  categorias.push('3822')
+  categorias.push('3909')
+  categorias.push('3951')
+  categorias.push('3982')
+  categorias.push('3991')
+  categorias.push('4186')
+  categorias.push('4248')
+  categorias.push('4808')
+  categorias.push('4880')
+  categorias.push('5063')
+  categorias.push('5114')
+  categorias.push('5202')
+  categorias.push('5483')
+  categorias.push('5713')
+  categorias.push('5749')
+  categorias.push('5939')
+  categorias.push('6073')
+  categorias.push('6217')
+  categorias.push('6393')
+  categorias.push('6405')
+  categorias.push('6440')
+  categorias.push('6516')
+  categorias.push('6617')
+  categorias.push('6885')
+  categorias.push('7379')
+  categorias.push('7540')
+  categorias.push('7577')
+  categorias.push('7627')
+  categorias.push('7747')
+  categorias.push('7851')
+  categorias.push('7884')
+  categorias.push('8701')
+  categorias.push('8784')
+  categorias.push('8886')
+  categorias.push('9116')
+  categorias.push('9120')
+  categorias.push('9578')
+  categorias.push('9717')
+  categorias.push('9766')
+  categorias.push('10007')
+  categorias.push('10293')
+  categorias.push('10295')
+  categorias.push('10475')
+  categorias.push('10528')
+  categorias.push('10569')
+  categorias.push('10649')
+  categorias.push('10684')
+  categorias.push('10943')
+  categorias.push('10954')
+  categorias.push('10992')
+  categorias.push('11159')
+  categorias.push('11325')
+  categorias.push('11405')
+  categorias.push('11433')
+  categorias.push('11559')
+  categorias.push('11566')
+  categorias.push('11627')
+  categorias.push('11687')
+  categorias.push('11745')
+  categorias.push('11757')
+  categorias.push('11828')
+  categorias.push('11869')
+  categorias.push('11912')
+  categorias.push('12014')
+  categorias.push('12196')
+  categorias.push('12325')
+  categorias.push('12476')
+  categorias.push('12546')
+  categorias.push('12564')
+  categorias.push('12568')
+  categorias.push('12710')
+  categorias.push('12807')
+  categorias.push('12822')
+  categorias.push('12907')
+  categorias.push('13014')
+  categorias.push('13267')
+  categorias.push('13276')
+  categorias.push('13381')
+  categorias.push('13448')
+  categorias.push('13604')
+  categorias.push('13628')
+  categorias.push('13730')
+  categorias.push('13978')
+  categorias.push('14019')
+  categorias.push('14078')
+  categorias.push('14126')
+  categorias.push('14165')
+  categorias.push('14173')
+  categorias.push('14174')
+  categorias.push('14310')
+  categorias.push('14391')
+  categorias.push('14392')
+  categorias.push('14409')
+  categorias.push('14409')
+  categorias.push('14456')
+  categorias.push('14505')
+  categorias.push('14549')
+  categorias.push('14560')
+  categorias.push('14579')
+  categorias.push('14701')
+  categorias.push('14801')
+  categorias.push('14860')
+  categorias.push('15092')
+  categorias.push('15187')
+  categorias.push('15277')
+  categorias.push('15324')
+  categorias.push('15358')
+  categorias.push('15392')
+  categorias.push('15415')
+  categorias.push('15465')
+  categorias.push('15525')
+  categorias.push('15526')
+  categorias.push('15576')
+  categorias.push('15687')
+  categorias.push('15743')
+  categorias.push('15839')
+  categorias.push('16019')
+  categorias.push('16043')
+  categorias.push('16105')
+  categorias.push('16153')
+  categorias.push('16195')
+  categorias.push('16249')
+  categorias.push('16266')
+  categorias.push('16267')
+  categorias.push('16428')
+  categorias.push('16442')
+  categorias.push('16453')
+  categorias.push('16598')
+  categorias.push('16647')
+  categorias.push('16700')
+  categorias.push('16763')
+  categorias.push('16778')
+  categorias.push('16821')
+  categorias.push('16894')
+  categorias.push('16923')
+  categorias.push('16971')
+  categorias.push('16982')
+  categorias.push('17057')
+  categorias.push('17205')
+  categorias.push('17218')
+  categorias.push('17243')
+  categorias.push('17354')
+  categorias.push('17424')
+  categorias.push('17424')
+  categorias.push('17437')
+  categorias.push('17456')
+  categorias.push('17519')
+  categorias.push('17560')
+  categorias.push('17606')
+  categorias.push('17656')
+  categorias.push('17702')
+  categorias.push('17707')
+  categorias.push('17775')
+  categorias.push('17817')
+  categorias.push('17947')
+  categorias.push('17951')
+  categorias.push('17975')
+  categorias.push('18001')
+  categorias.push('18014')
+  categorias.push('18057')
+  categorias.push('18184')
+  categorias.push('18231')
+  categorias.push('18282')
+  categorias.push('18321')
+  categorias.push('18443')
+  categorias.push('18531')
+  categorias.push('18539')
+  categorias.push('18561')
+  categorias.push('18582')
+  categorias.push('18653')
+  categorias.push('18682')
+  categorias.push('18798')
+  categorias.push('18823')
+  categorias.push('18936')
+  categorias.push('18949')
+  categorias.push('19053')
+  categorias.push('19067')
+  categorias.push('19151')
+  categorias.push('19207')
+  categorias.push('19209')
+  categorias.push('19266')
+  categorias.push('19324')
+  categorias.push('19376')
+  categorias.push('19401')
+  categorias.push('19410')
+  categorias.push('19423')
+  categorias.push('19425')
+  categorias.push('19488')
+  categorias.push('19513')
+  categorias.push('19569')
+  categorias.push('19626')
+  categorias.push('19637')
+  categorias.push('19640')
+  categorias.push('19782')
+  categorias.push('19802')
+  categorias.push('19817')
+  categorias.push('19961')
+  categorias.push('19968')
+  categorias.push('19982')
+  categorias.push('19997')
+  categorias.push('20036')
+  categorias.push('20043')
+  categorias.push('20209')
+  categorias.push('20226')
+  categorias.push('20272')
+  categorias.push('20286')
+  categorias.push('20318')
+  categorias.push('20432')
+  categorias.push('20435')
+  categorias.push('20463')
+  categorias.push('20466')
+  categorias.push('20535')
+  categorias.push('20569')
+  categorias.push('20585')
+  categorias.push('20607')
+  categorias.push('20761')
+  categorias.push('20823')
+  categorias.push('20829')
+  categorias.push('21050')
+  categorias.push('21054')
+  categorias.push('21347')
+  categorias.push('21353')
+  categorias.push('21357')
+  categorias.push('21363')
+  categorias.push('21408')
+  categorias.push('21510')
+  categorias.push('21668')
+  categorias.push('21718')
+  categorias.push('21876')
+  categorias.push('21881')
+  categorias.push('22083')
+  categorias.push('22097')
+  categorias.push('22332')
+  categorias.push('22344')
+  categorias.push('22370')
+  categorias.push('22517')
+  categorias.push('22562')
+  categorias.push('22592')
+  categorias.push('22681')
+  categorias.push('22834')
+  categorias.push('22936')
+  categorias.push('23023')
+  categorias.push('23035')
+  categorias.push('23401')
+  categorias.push('23432')
+  categorias.push('23447')
+  categorias.push('23539')
+  categorias.push('23649')
+  categorias.push('23763')
+  categorias.push('23778')
+  categorias.push('23811')
+  categorias.push('23828')
+  categorias.push('23894')
+  categorias.push('23986')
+  categorias.push('24003')
+  categorias.push('24119')
+  categorias.push('24158')
+  categorias.push('24162')
+  categorias.push('24174')
+  categorias.push('24273')
+  categorias.push('24316')
+  categorias.push('24397')
+  categorias.push('24414')
+  categorias.push('24440')
+  categorias.push('24537')
+  categorias.push('24610')
+  categorias.push('24681')
+  categorias.push('24695')
+  categorias.push('24749')
+  categorias.push('24768')
+  categorias.push('24936')
+  categorias.push('24980')
+  categorias.push('25098')
+  categorias.push('25165')
+  categorias.push('25214')
+  categorias.push('25285')
+  categorias.push('25334')
+  categorias.push('25492')
+  categorias.push('25644')
+  categorias.push('26023')
+  categorias.push('26152')
+  categorias.push('26243')
+  categorias.push('26270')
+  categorias.push('26361')
+  categorias.push('26523')
+  categorias.push('26556')
+  categorias.push('26667')
+  categorias.push('26685')
+  categorias.push('26800')
+  categorias.push('27094')
+  categorias.push('27153')
+  categorias.push('27163')
+  categorias.push('27346')
+  categorias.push('27506')
+  categorias.push('27531')
+  categorias.push('27739')
+  categorias.push('27972')
+  categorias.push('28076')
+  categorias.push('28078')
+  categorias.push('28144')
+  categorias.push('28217')
+  categorias.push('28437')
+  categorias.push('28495')
+  categorias.push('28764')
+  categorias.push('28777')
+  categorias.push('28857')
+  categorias.push('29054')
+  categorias.push('29229')
+  categorias.push('29279')
+  categorias.push('29350')
+  categorias.push('29754')
+  categorias.push('29882')
+  categorias.push('30023')
+  categorias.push('30120')
+  categorias.push('30289')
+  categorias.push('30289')
+  categorias.push('30294')
+  categorias.push('30418')
+  categorias.push('30770')
+  categorias.push('30784')
+  categorias.push('31071')
+  categorias.push('31238')
+  categorias.push('31370')
+  categorias.push('31475')
+  categorias.push('31503')
+  categorias.push('31533')
+  categorias.push('31555')
+  categorias.push('31810')
+  categorias.push('31866')
+  categorias.push('31991')
+  categorias.push('32160')
+  categorias.push('32161')
+  categorias.push('32404')
+  categorias.push('32442')
+  categorias.push('32694')
+  categorias.push('32707')
+  categorias.push('32710')
+  categorias.push('32860')
+  categorias.push('32863')
+  categorias.push('33018')
+  categorias.push('33390')
+  categorias.push('33447')
+  categorias.push('33509')
+  categorias.push('33534')
+  categorias.push('33664')
+  categorias.push('33691')
+  categorias.push('33746')
+  categorias.push('33763')
+  categorias.push('33796')
+  categorias.push('33804')
+  categorias.push('34215')
+  categorias.push('34430')
+  categorias.push('34468')
+  categorias.push('34502')
+  categorias.push('34535')
+  categorias.push('34634')
+  categorias.push('34637')
+  categorias.push('34650')
+  categorias.push('34837')
+  categorias.push('34993')
+  categorias.push('34994')
+  categorias.push('35017')
+  categorias.push('35071')
+  categorias.push('35141')
+  categorias.push('35308')
+  categorias.push('35351')
+  categorias.push('35452')
+  categorias.push('35564')
+  categorias.push('35603')
+  categorias.push('35629')
+  categorias.push('35657')
+  categorias.push('35714')
+  categorias.push('35782')
+  categorias.push('35782')
+  categorias.push('35819')
+  categorias.push('35826')
+  categorias.push('35936')
+  categorias.push('36026')
+  categorias.push('36101')
+  categorias.push('36186')
+  categorias.push('36220')
+  categorias.push('36229')
+  categorias.push('36384')
+  categorias.push('36517')
+  categorias.push('36580')
+  categorias.push('36675')
+  categorias.push('36719')
+  categorias.push('36722')
+  categorias.push('36790')
+  categorias.push('36814')
+  categorias.push('36845')
+  categorias.push('36851')
+  categorias.push('36946')
+  categorias.push('37003')
+  categorias.push('37012')
+  categorias.push('37013')
+  categorias.push('37023')
+  categorias.push('37147')
+  categorias.push('37182')
+  categorias.push('37184')
+  categorias.push('37205')
+  categorias.push('37327')
+  categorias.push('37511')
+  categorias.push('37527')
+  categorias.push('37594')
+  categorias.push('37623')
+  categorias.push('37638')
+  categorias.push('37643')
+  categorias.push('37685')
+  categorias.push('37716')
+  categorias.push('37742')
+  categorias.push('37839')
+  categorias.push('37863')
+  categorias.push('37976')
+  categorias.push('37979')
+  categorias.push('38045')
+  categorias.push('38092')
+  categorias.push('38122')
+  categorias.push('38211')
+  categorias.push('38216')
+  categorias.push('38273')
+  categorias.push('38414')
+  categorias.push('38631')
+  categorias.push('38642')
+  categorias.push('38722')
+  categorias.push('38726')
+  categorias.push('38794')
+  categorias.push('38801')
+  categorias.push('38864')
+  categorias.push('38894')
+  categorias.push('38985')
+  categorias.push('39024')
+  categorias.push('39039')
+  categorias.push('39095')
+  categorias.push('39189')
+  categorias.push('39210')
+  categorias.push('39243')
+  categorias.push('39447')
+  categorias.push('39465')
+  categorias.push('39497')
+  categorias.push('39498')
+  categorias.push('39508')
+  categorias.push('39526')
+  categorias.push('39541')
+  categorias.push('39586')
+  categorias.push('39612')
+  categorias.push('39678')
+  categorias.push('39731')
+  categorias.push('39801')
+  categorias.push('39884')
+  categorias.push('39909')
+  categorias.push('39909')
+  categorias.push('39909')
+  categorias.push('39911')
+  categorias.push('39913')
+  categorias.push('39944')
+  categorias.push('39964')
+  categorias.push('40078')
+  categorias.push('40227')
+  categorias.push('40290')
+  categorias.push('40306')
+  categorias.push('40330')
+  categorias.push('40368')
+  categorias.push('40397')
+  categorias.push('40427')
+  categorias.push('40619')
+  categorias.push('40630')
+  categorias.push('40647')
+  categorias.push('40693')
+  categorias.push('40724')
+  categorias.push('40726')
+  categorias.push('40769')
+  categorias.push('40831')
+  categorias.push('40844')
+  categorias.push('40907')
+  categorias.push('40907')
+  categorias.push('40967')
+  categorias.push('40969')
+  categorias.push('40969')
+  categorias.push('41225')
+  categorias.push('41252')
+  categorias.push('41262')
+  categorias.push('41272')
+  categorias.push('41330')
+  categorias.push('41360')
+  categorias.push('41474')
+  categorias.push('41477')
+  categorias.push('41478')
+  categorias.push('41508')
+  categorias.push('41527')
+  categorias.push('41547')
+  categorias.push('41570')
+  categorias.push('41584')
+  categorias.push('41630')
+  categorias.push('41673')
+  categorias.push('41792')
+  categorias.push('41864')
+  categorias.push('41894')
+  categorias.push('41909')
+  categorias.push('42025')
+  categorias.push('42051')
+  categorias.push('42061')
+  categorias.push('42062')
+  categorias.push('42123')
+  categorias.push('42132')
+  categorias.push('42154')
+  categorias.push('42241')
+  categorias.push('42288')
+  categorias.push('42331')
+  categorias.push('42348')
+  categorias.push('42359')
+  categorias.push('42406')
+  categorias.push('42408')
+  categorias.push('42552')
+  categorias.push('42610')
+  categorias.push('42621')
+  categorias.push('42655')
+  categorias.push('42702')
+  categorias.push('42721')
+  categorias.push('42838')
+  categorias.push('42982')
+  categorias.push('43038')
+  categorias.push('43119')
+  categorias.push('43126')
+  categorias.push('43156')
+  categorias.push('43185')
+  categorias.push('43214')
+  categorias.push('43219')
+  categorias.push('43285')
+  categorias.push('43315')
+  categorias.push('43357')
+  categorias.push('43426')
+  categorias.push('43466')
+  categorias.push('43637')
+  categorias.push('43836')
+  categorias.push('43877')
+  categorias.push('43880')
+  categorias.push('43899')
+  categorias.push('43993')
+  categorias.push('44012')
+  categorias.push('44113')
+  categorias.push('44125')
+  categorias.push('44253')
+  categorias.push('44383')
+  categorias.push('44430')
+  categorias.push('44447')
+  categorias.push('44475')
+  categorias.push('44487')
+  categorias.push('44865')
+  categorias.push('44947')
+  categorias.push('45017')
+  categorias.push('45032')
+  categorias.push('45134')
+  categorias.push('45182')
+  categorias.push('45407')
+  categorias.push('45464')
+  categorias.push('45680')
+  categorias.push('45702')
+  categorias.push('45769')
+  categorias.push('45774')
+  categorias.push('45801')
+  categorias.push('46095')
+  categorias.push('46238')
+  categorias.push('46258')
+  categorias.push('46555')
+  categorias.push('46581')
+  categorias.push('46655')
+  categorias.push('46718')
+  categorias.push('46845')
+  categorias.push('47490')
+  categorias.push('47702')
+  categorias.push('47788')
+  categorias.push('47829')
+  categorias.push('47874')
+  categorias.push('48064')
+  categorias.push('49087')
+  categorias.push('49294')
+  categorias.push('49761')
+  categorias.push('49811')
+  categorias.push('49826')
+  categorias.push('51508')
+  categorias.push('51539')
+  categorias.push('52467')
+  categorias.push('53377')
+  categorias.push('57742')
+  categorias.push('58920')
+  categorias.push('70685')
+var datosSerie=[];
+datosSerie.push(1237);
+datosSerie.push(1231);
+datosSerie.push(1368);
+datosSerie.push(1235);
+datosSerie.push(1195);
+datosSerie.push(1385);
+datosSerie.push(1274);
+datosSerie.push(2140);
+datosSerie.push(1774);
+datosSerie.push(1354);
+datosSerie.push(1907);
+datosSerie.push(1352);
+datosSerie.push(1541);
+datosSerie.push(1984);
+datosSerie.push(1443);
+datosSerie.push(2037);
+datosSerie.push(1591);
+datosSerie.push(2267);
+datosSerie.push(2013);
+datosSerie.push(2712);
+datosSerie.push(2043);
+datosSerie.push(1422);
+datosSerie.push(2959);
+datosSerie.push(2213);
+datosSerie.push(1095);
+datosSerie.push(1372);
+datosSerie.push(2084);
+datosSerie.push(2092);
+datosSerie.push(2794);
+datosSerie.push(3157);
+datosSerie.push(2075);
+datosSerie.push(1423);
+datosSerie.push(2557);
+datosSerie.push(2571);
+datosSerie.push(2696);
+datosSerie.push(2757);
+datosSerie.push(2844);
+datosSerie.push(1118);
+datosSerie.push(2797);
+datosSerie.push(1522);
+datosSerie.push(1423);
+datosSerie.push(2169);
+datosSerie.push(1978);
+datosSerie.push(3036);
+datosSerie.push(2408);
+datosSerie.push(1246);
+datosSerie.push(2373);
+datosSerie.push(4077);
+datosSerie.push(2244);
+datosSerie.push(1681);
+datosSerie.push(2737);
+datosSerie.push(2930);
+datosSerie.push(3209);
+datosSerie.push(3801);
+datosSerie.push(3047);
+datosSerie.push(2052);
+datosSerie.push(6220);
+datosSerie.push(2000);
+datosSerie.push(1621);
+datosSerie.push(4043);
+datosSerie.push(2440);
+datosSerie.push(4135);
+datosSerie.push(2878);
+datosSerie.push(3491);
+datosSerie.push(4376);
+datosSerie.push(4629);
+datosSerie.push(3450);
+datosSerie.push(3301);
+datosSerie.push(1646);
+datosSerie.push(5230);
+datosSerie.push(2743);
+datosSerie.push(1490);
+datosSerie.push(4647);
+datosSerie.push(3800);
+datosSerie.push(3194);
+datosSerie.push(3690);
+datosSerie.push(1580);
+datosSerie.push(6874);
+datosSerie.push(4003);
+datosSerie.push(1151);
+datosSerie.push(3044);
+datosSerie.push(2558);
+datosSerie.push(1923);
+datosSerie.push(2474);
+datosSerie.push(5772);
+datosSerie.push(1513);
+datosSerie.push(3103);
+datosSerie.push(7586);
+datosSerie.push(3543);
+datosSerie.push(2682);
+datosSerie.push(4606);
+datosSerie.push(3251);
+datosSerie.push(1386);
+datosSerie.push(9356);
+datosSerie.push(3762);
+datosSerie.push(6479);
+datosSerie.push(2721);
+datosSerie.push(6264);
+datosSerie.push(2875);
+datosSerie.push(4570);
+datosSerie.push(5374);
+datosSerie.push(2522);
+datosSerie.push(6494);
+datosSerie.push(2561);
+datosSerie.push(2009);
+datosSerie.push(8043);
+datosSerie.push(8090);
+datosSerie.push(9724);
+datosSerie.push(7436);
+datosSerie.push(5563);
+datosSerie.push(3205);
+datosSerie.push(2002);
+datosSerie.push(7190);
+datosSerie.push(7314);
+datosSerie.push(5264);
+datosSerie.push(11068);
+datosSerie.push(3590);
+datosSerie.push(3966);
+datosSerie.push(5020);
+datosSerie.push(4985);
+datosSerie.push(5339);
+datosSerie.push(6015);
+datosSerie.push(11417);
+datosSerie.push(5380);
+datosSerie.push(12680);
+datosSerie.push(8750);
+datosSerie.push(11239);
+datosSerie.push(12694);
+datosSerie.push(5300);
+datosSerie.push(5000);
+datosSerie.push(3824);
+datosSerie.push(3930);
+datosSerie.push(13242);
+datosSerie.push(6822);
+datosSerie.push(9843);
+datosSerie.push(9836);
+datosSerie.push(2472);
+datosSerie.push(10301);
+datosSerie.push(6281);
+datosSerie.push(5548);
+datosSerie.push(5467);
+datosSerie.push(1817);
+datosSerie.push(7924);
+datosSerie.push(9219);
+datosSerie.push(10265);
+datosSerie.push(6140);
+datosSerie.push(5656);
+datosSerie.push(5352);
+datosSerie.push(3657);
+datosSerie.push(14926);
+datosSerie.push(6967);
+datosSerie.push(13923);
+datosSerie.push(2955);
+datosSerie.push(1493);
+datosSerie.push(5232);
+datosSerie.push(4879);
+datosSerie.push(4586);
+datosSerie.push(7949);
+datosSerie.push(3337);
+datosSerie.push(9955);
+datosSerie.push(10761);
+datosSerie.push(6491);
+datosSerie.push(10837);
+datosSerie.push(2656);
+datosSerie.push(5303);
+datosSerie.push(3853);
+datosSerie.push(14523);
+datosSerie.push(11946);
+datosSerie.push(5078);
+datosSerie.push(1922);
+datosSerie.push(8524);
+datosSerie.push(3608);
+datosSerie.push(3692);
+datosSerie.push(15856);
+datosSerie.push(3714);
+datosSerie.push(12167);
+datosSerie.push(2616);
+datosSerie.push(9495);
+datosSerie.push(6289);
+datosSerie.push(11181);
+datosSerie.push(16558);
+datosSerie.push(3420);
+datosSerie.push(3497);
+datosSerie.push(6441);
+datosSerie.push(10535);
+datosSerie.push(2547);
+datosSerie.push(3010);
+datosSerie.push(5312);
+datosSerie.push(11954);
+datosSerie.push(1553);
+datosSerie.push(17435);
+datosSerie.push(15174);
+datosSerie.push(9601);
+datosSerie.push(3054);
+datosSerie.push(4097);
+datosSerie.push(7028);
+datosSerie.push(15897);
+datosSerie.push(16985);
+datosSerie.push(11987);
+datosSerie.push(8391);
+datosSerie.push(17709);
+datosSerie.push(7091);
+datosSerie.push(5030);
+datosSerie.push(6317);
+datosSerie.push(2333);
+datosSerie.push(14201);
+datosSerie.push(3234);
+datosSerie.push(18406);
+datosSerie.push(10822);
+datosSerie.push(9964);
+datosSerie.push(6289);
+datosSerie.push(18287);
+datosSerie.push(6856);
+datosSerie.push(4546);
+datosSerie.push(9792);
+datosSerie.push(11873);
+datosSerie.push(3992);
+datosSerie.push(7563);
+datosSerie.push(7226);
+datosSerie.push(3626);
+datosSerie.push(8989);
+datosSerie.push(19122);
+datosSerie.push(7989);
+datosSerie.push(5180);
+datosSerie.push(8094);
+datosSerie.push(9084);
+datosSerie.push(5316);
+datosSerie.push(3911);
+datosSerie.push(6752);
+datosSerie.push(5071);
+datosSerie.push(16627);
+datosSerie.push(3543);
+datosSerie.push(7973);
+datosSerie.push(5022);
+datosSerie.push(5862);
+datosSerie.push(3431);
+datosSerie.push(4492);
+datosSerie.push(17056);
+datosSerie.push(5604);
+datosSerie.push(5605);
+datosSerie.push(7312);
+datosSerie.push(14180);
+datosSerie.push(3392);
+datosSerie.push(13871);
+datosSerie.push(7615);
+datosSerie.push(5890);
+datosSerie.push(13139);
+datosSerie.push(5463);
+datosSerie.push(10979);
+datosSerie.push(6054);
+datosSerie.push(15867);
+datosSerie.push(2553);
+datosSerie.push(7961);
+datosSerie.push(15126);
+datosSerie.push(20245);
+datosSerie.push(21446);
+datosSerie.push(4056);
+datosSerie.push(4776);
+datosSerie.push(2370);
+datosSerie.push(7495);
+datosSerie.push(5342);
+datosSerie.push(22143);
+datosSerie.push(13857);
+datosSerie.push(6323);
+datosSerie.push(15919);
+datosSerie.push(10187);
+datosSerie.push(4252);
+datosSerie.push(22571);
+datosSerie.push(5502);
+datosSerie.push(6098);
+datosSerie.push(1785);
+datosSerie.push(6285);
+datosSerie.push(4682);
+datosSerie.push(14895);
+datosSerie.push(15687);
+datosSerie.push(17750);
+datosSerie.push(1886);
+datosSerie.push(1985);
+datosSerie.push(22304);
+datosSerie.push(17409);
+datosSerie.push(4230);
+datosSerie.push(13039);
+datosSerie.push(13979);
+datosSerie.push(18193);
+datosSerie.push(3862);
+datosSerie.push(12412);
+datosSerie.push(3197);
+datosSerie.push(5059);
+datosSerie.push(5299);
+datosSerie.push(2801);
+datosSerie.push(12991);
+datosSerie.push(18291);
+datosSerie.push(8200);
+datosSerie.push(13036);
+datosSerie.push(10151);
+datosSerie.push(10163);
+datosSerie.push(5984);
+datosSerie.push(2468);
+datosSerie.push(24393);
+datosSerie.push(11504);
+datosSerie.push(12536);
+datosSerie.push(5754);
+datosSerie.push(2565);
+datosSerie.push(2723);
+datosSerie.push(24107);
+datosSerie.push(24803);
+datosSerie.push(7072);
+datosSerie.push(6712);
+datosSerie.push(2270);
+datosSerie.push(26181);
+datosSerie.push(26316);
+datosSerie.push(10674);
+datosSerie.push(22608);
+datosSerie.push(10948);
+datosSerie.push(14405);
+datosSerie.push(14227);
+datosSerie.push(24563);
+datosSerie.push(26132);
+datosSerie.push(7805);
+datosSerie.push(8644);
+datosSerie.push(2923);
+datosSerie.push(3863);
+datosSerie.push(8566);
+datosSerie.push(24877);
+datosSerie.push(2558);
+datosSerie.push(13733);
+datosSerie.push(7409);
+datosSerie.push(4292);
+datosSerie.push(25873);
+datosSerie.push(2862);
+datosSerie.push(2795);
+datosSerie.push(20513);
+datosSerie.push(23283);
+datosSerie.push(20422);
+datosSerie.push(28057);
+datosSerie.push(18651);
+datosSerie.push(3188);
+datosSerie.push(3102);
+datosSerie.push(6379);
+datosSerie.push(1471);
+datosSerie.push(27215);
+datosSerie.push(31858);
+datosSerie.push(31990);
+datosSerie.push(1696);
+datosSerie.push(5372);
+datosSerie.push(26801);
+datosSerie.push(5219);
+datosSerie.push(32693);
+datosSerie.push(13054);
+datosSerie.push(3169);
+datosSerie.push(32858);
+datosSerie.push(32862);
+datosSerie.push(15497);
+datosSerie.push(4535);
+datosSerie.push(33435);
+datosSerie.push(10720);
+datosSerie.push(29315);
+datosSerie.push(33662);
+datosSerie.push(4775);
+datosSerie.push(5951);
+datosSerie.push(33754);
+datosSerie.push(33765);
+datosSerie.push(33802);
+datosSerie.push(34214);
+datosSerie.push(34419);
+datosSerie.push(34452);
+datosSerie.push(34501);
+datosSerie.push(34528);
+datosSerie.push(34628);
+datosSerie.push(8169);
+datosSerie.push(31434);
+datosSerie.push(34836);
+datosSerie.push(34987);
+datosSerie.push(29223);
+datosSerie.push(8263);
+datosSerie.push(35069);
+datosSerie.push(4469);
+datosSerie.push(9754);
+datosSerie.push(35349);
+datosSerie.push(3420);
+datosSerie.push(35564);
+datosSerie.push(3681);
+datosSerie.push(35619);
+datosSerie.push(35657);
+datosSerie.push(35683);
+datosSerie.push(35771);
+datosSerie.push(3217);
+datosSerie.push(35687);
+datosSerie.push(35808);
+datosSerie.push(35935);
+datosSerie.push(36025);
+datosSerie.push(3669);
+datosSerie.push(36181);
+datosSerie.push(36219);
+datosSerie.push(36203);
+datosSerie.push(36382);
+datosSerie.push(36516);
+datosSerie.push(3527);
+datosSerie.push(36626);
+datosSerie.push(36586);
+datosSerie.push(2897);
+datosSerie.push(36787);
+datosSerie.push(36680);
+datosSerie.push(36845);
+datosSerie.push(36824);
+datosSerie.push(3279);
+datosSerie.push(37003);
+datosSerie.push(37009);
+datosSerie.push(37012);
+datosSerie.push(37017);
+datosSerie.push(37144);
+datosSerie.push(37181);
+datosSerie.push(37069);
+datosSerie.push(37063);
+datosSerie.push(37326);
+datosSerie.push(2863);
+datosSerie.push(37526);
+datosSerie.push(37594);
+datosSerie.push(37621);
+datosSerie.push(37637);
+datosSerie.push(37291);
+datosSerie.push(37459);
+datosSerie.push(1473);
+datosSerie.push(37649);
+datosSerie.push(37827);
+datosSerie.push(37546);
+datosSerie.push(37925);
+datosSerie.push(37978);
+datosSerie.push(38044);
+datosSerie.push(38085);
+datosSerie.push(35767);
+datosSerie.push(38210);
+datosSerie.push(38215);
+datosSerie.push(35706);
+datosSerie.push(38182);
+datosSerie.push(38626);
+datosSerie.push(38629);
+datosSerie.push(38713);
+datosSerie.push(38724);
+datosSerie.push(38792);
+datosSerie.push(38789);
+datosSerie.push(38736);
+datosSerie.push(38894);
+datosSerie.push(38983);
+datosSerie.push(38914);
+datosSerie.push(38925);
+datosSerie.push(38980);
+datosSerie.push(39188);
+datosSerie.push(39208);
+datosSerie.push(39242);
+datosSerie.push(39343);
+datosSerie.push(39465);
+datosSerie.push(39365);
+datosSerie.push(39478);
+datosSerie.push(1351);
+datosSerie.push(39523);
+datosSerie.push(39541);
+datosSerie.push(39483);
+datosSerie.push(39436);
+datosSerie.push(39677);
+datosSerie.push(39728);
+datosSerie.push(39015);
+datosSerie.push(39883);
+datosSerie.push(39908);
+datosSerie.push(39908);
+datosSerie.push(39907);
+datosSerie.push(39882);
+datosSerie.push(39910);
+datosSerie.push(39930);
+datosSerie.push(39963);
+datosSerie.push(40077);
+datosSerie.push(40226);
+datosSerie.push(40288);
+datosSerie.push(40305);
+datosSerie.push(40325);
+datosSerie.push(39927);
+datosSerie.push(40397);
+datosSerie.push(40426);
+datosSerie.push(40618);
+datosSerie.push(40623);
+datosSerie.push(40647);
+datosSerie.push(40579);
+datosSerie.push(40722);
+datosSerie.push(40725);
+datosSerie.push(39367);
+datosSerie.push(40830);
+datosSerie.push(40734);
+datosSerie.push(40904);
+datosSerie.push(40790);
+datosSerie.push(40961);
+datosSerie.push(40968);
+datosSerie.push(40138);
+datosSerie.push(41224);
+datosSerie.push(41128);
+datosSerie.push(41151);
+datosSerie.push(40908);
+datosSerie.push(41103);
+datosSerie.push(41359);
+datosSerie.push(41473);
+datosSerie.push(1295);
+datosSerie.push(41354);
+datosSerie.push(41487);
+datosSerie.push(41422);
+datosSerie.push(13027);
+datosSerie.push(41570);
+datosSerie.push(40974);
+datosSerie.push(1410);
+datosSerie.push(41646);
+datosSerie.push(41782);
+datosSerie.push(41715);
+datosSerie.push(41524);
+datosSerie.push(41908);
+datosSerie.push(42021);
+datosSerie.push(41757);
+datosSerie.push(40744);
+datosSerie.push(42059);
+datosSerie.push(41621);
+datosSerie.push(41899);
+datosSerie.push(42152);
+datosSerie.push(40679);
+datosSerie.push(42288);
+datosSerie.push(42330);
+datosSerie.push(8238);
+datosSerie.push(42359);
+datosSerie.push(42278);
+datosSerie.push(42383);
+datosSerie.push(9560);
+datosSerie.push(42609);
+datosSerie.push(3647);
+datosSerie.push(42651);
+datosSerie.push(42010);
+datosSerie.push(42204);
+datosSerie.push(42165);
+datosSerie.push(42879);
+datosSerie.push(43035);
+datosSerie.push(43009);
+datosSerie.push(42826);
+datosSerie.push(1436);
+datosSerie.push(42843);
+datosSerie.push(1927);
+datosSerie.push(43219);
+datosSerie.push(40148);
+datosSerie.push(42822);
+datosSerie.push(43125);
+datosSerie.push(43215);
+datosSerie.push(43466);
+datosSerie.push(43635);
+datosSerie.push(43832);
+datosSerie.push(43860);
+datosSerie.push(43878);
+datosSerie.push(41671);
+datosSerie.push(43746);
+datosSerie.push(43916);
+datosSerie.push(44006);
+datosSerie.push(43810);
+datosSerie.push(44137);
+datosSerie.push(44144);
+datosSerie.push(44275);
+datosSerie.push(44218);
+datosSerie.push(44474);
+datosSerie.push(44484);
+datosSerie.push(44388);
+datosSerie.push(1559);
+datosSerie.push(44443);
+datosSerie.push(44938);
+datosSerie.push(44577);
+datosSerie.push(44833);
+datosSerie.push(44924);
+datosSerie.push(2546);
+datosSerie.push(44863);
+datosSerie.push(45336);
+datosSerie.push(44679);
+datosSerie.push(45449);
+datosSerie.push(45605);
+datosSerie.push(45550);
+datosSerie.push(45816);
+datosSerie.push(14220);
+datosSerie.push(46405);
+datosSerie.push(46400);
+datosSerie.push(44662);
+datosSerie.push(45879);
+datosSerie.push(46013);
+datosSerie.push(6735);
+datosSerie.push(47231);
+datosSerie.push(3354);
+datosSerie.push(47718);
+datosSerie.push(47673);
+datosSerie.push(1614);
+datosSerie.push(3636);
+datosSerie.push(2828);
+datosSerie.push(5647);
+datosSerie.push(3953);
+datosSerie.push(4260);
+datosSerie.push(48333);
+datosSerie.push(4550);
+datosSerie.push(49699);
+datosSerie.push(7945);
+datosSerie.push(29235);
+datosSerie.push(3034);
+datosSerie.push(19089);
+  seriesFinal.push({ name: 'Cloud_Rest',data: datosSerie.map(Number)})
+var datosSerie=[];
+datosSerie.push(32858);
+datosSerie.push(39728);
+  seriesFinal.push({ name: 'Local_Rest',data: datosSerie.map(Number)})
+    $('#container').highcharts({
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'Line Chart With Data Labels'
+        },
+        subtitle: {
+            text: ''
+        },
+        xAxis: {
+            categories: categorias
+        },
+        yAxis: {
+            title: {
+                text: 'ms'
+            }
+        },
+        plotOptions: {
+            line: {
+                dataLabels: {
+                    enabled: true
+                },
+                enableMouseTracking: false
+            }
+        },
+        series: seriesFinal
+    });
+});
+</script>
+
+</head>
+<body>
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+</body>
+</html>

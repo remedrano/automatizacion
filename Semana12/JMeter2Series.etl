@@ -1,0 +1,45 @@
+rule JMeter2Series
+	transform
+	   s:jm!JMeter
+	to 
+	   t:series!Grafica{
+	   	   t.titulo="Basic Column";
+		   t.subtitulo="";
+		   t.tipo=series!TipoGrafica#basicColumn;   
+		   t.graficaSerie=s.architectureResults.equivalent();
+	   }
+
+rule Arquitectura2Serie
+	transform
+	    s:jm!ArchitectureResults
+	to
+	    t:series!Serie{
+		    t.name=s.architecture;    
+		    t.serieDato=s.results.equivalent();
+	    }
+	    	  
+rule Results2Dato
+	transform
+	    s:jm!Results
+	to
+	    t:series!Dato{    
+		    t.name=s.result.last().value;
+	    }
+    
+    
+rule Arquitectura2EjeX
+	transform
+	    s:jm!ArchitectureResults
+	to
+	    t:series!EjeX{
+		    t.name=s.architecture;    		  
+		    t.ejeXCategoria=s.results.equivalent();
+	    }
+	    
+rule Results2Categoria
+	transform
+	    s:jm!Results
+	to
+	    t:series!Categoria{    
+		    t.name=s.result.last().value;
+	    }

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/Series/src" modelPluginID="Series" modelName="Series"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="7.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>series.ecore</foreignModel>
+  <genPackages prefix="Series" disposableProviderFactory="true" ecorePackage="series.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="series.ecore#//TipoGrafica">
+      <genEnumLiterals ecoreEnumLiteral="series.ecore#//TipoGrafica/stackedColumn"/>
+      <genEnumLiterals ecoreEnumLiteral="series.ecore#//TipoGrafica/basicColumn"/>
+      <genEnumLiterals ecoreEnumLiteral="series.ecore#//TipoGrafica/basicBar"/>
+      <genEnumLiterals ecoreEnumLiteral="series.ecore#//TipoGrafica/lineChart"/>
+    </genEnums>
+    <genClasses ecoreClass="series.ecore#//Grafica">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute series.ecore#//Grafica/titulo"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute series.ecore#//Grafica/subtitulo"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute series.ecore#//Grafica/tipo"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference series.ecore#//Grafica/graficaSerie"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference series.ecore#//Grafica/graficaEjeX"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference series.ecore#//Grafica/graficaEjeY"/>
+    </genClasses>
+    <genClasses ecoreClass="series.ecore#//Dato">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute series.ecore#//Dato/name"/>
+    </genClasses>
+    <genClasses ecoreClass="series.ecore#//Serie">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference series.ecore#//Serie/serieDato"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute series.ecore#//Serie/name"/>
+    </genClasses>
+    <genClasses ecoreClass="series.ecore#//Categoria">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute series.ecore#//Categoria/name"/>
+    </genClasses>
+    <genClasses ecoreClass="series.ecore#//EjeX">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference series.ecore#//EjeX/ejeXCategoria"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute series.ecore#//EjeX/name"/>
+    </genClasses>
+    <genClasses ecoreClass="series.ecore#//EjeY">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute series.ecore#//EjeY/name"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
