@@ -1,4 +1,4 @@
-<h2>Sirius Básico</h2>
+<h2>Semana 12</h2>
 
 1. Proyecto #1 : Poder crear places y transitions desde la paleta --> <a target="_blank" href="https://github.com/remedrano/automatizacionTalleres/tree/master/Semana12/proyecto" > Código </a>
 
