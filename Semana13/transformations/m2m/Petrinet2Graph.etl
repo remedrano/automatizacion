@@ -1,0 +1,35 @@
+rule Petrinet2Graph 
+	transform p : Petrinet!Petrinet
+	to g : Graph!Graph {
+	
+		// Para convertir se va arco por arco convirtiendo el origen y el destino.
+		// Es necesario tener variables para garantizar que no se repitan elementos.
+		var nodoOrigenGrafo : Graph!Node;
+		var nodoDestinoGrafo : Graph!Node;
+		for (arco in Petrinet!Arc.allInstances)
+		{
+			// Como cada elemento puede tener multiples arcos se debe mirar si ya creamos este nodo anteriormente
+			nodoOrigenGrafo = Graph!Node.allInstances().select(n | n.name = arco.from.name)->first();
+			nodoDestinoGrafo = Graph!Node.allInstances().select(n | n.name = arco.`to`.name)->first();
+			
+			// Sino ha sido creado, entonces es momento de hacerlo
+			if (nodoOrigenGrafo = null)
+			{
+				nodoOrigenGrafo = new Graph!Node;
+				nodoOrigenGrafo.name = arco.from.name;
+				g.nodes.add(nodoOrigenGrafo);
+			}
+			
+			if (nodoDestinoGrafo = null)
+			{
+				nodoDestinoGrafo = new Graph!Node;
+				nodoDestinoGrafo.name = arco.`to`.name;
+				g.nodes.add(nodoDestinoGrafo);
+			}
+			
+			// Finalmente se convierte el arco a Edge con destino y origen establecidos
+			var edgeGrafo : new Graph!Edge;
+			edgeGrafo.source = nodoOrigenGrafo;
+			edgeGrafo.target = nodoDestinoGrafo;
+		}
+	}
