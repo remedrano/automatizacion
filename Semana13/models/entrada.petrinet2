@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<pnml:pnml xmlns:pnml="pnml.xsd">
+
+<net type="ptNet">
+
+<transition id="t1">
+
+</transition>
+
+<outputarc id="a1" target="p1" source="t1">
+
+</outputarc>
+
+<place id="p1">
+
+</place>
+
+<inputarc id="a2" target="t2" source="p1">
+
+</inputarc>
+
+<transition id="t2">
+
+</transition>
+
+<outputarc id="a3" target="p2" source="t2">
+
+</outputarc>
+
+<place id="p2">
+
+</place>
+
+<inputarc id="a4" target="t3" source="p2">
+
+</inputarc>
+
+<transition id="t3">
+
+</transition>
+
+</net>
+
+</pnml:pnml>

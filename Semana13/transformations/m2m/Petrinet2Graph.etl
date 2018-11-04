@@ -8,6 +8,8 @@ rule Petrinet2Graph
 		var nodoDestinoGrafo : Graph!Node;
 		for (arco in Petrinet!Arc.allInstances)
 		{
+		
+		//arco.println();
 			// Como cada elemento puede tener multiples arcos se debe mirar si ya creamos este nodo anteriormente
 			nodoOrigenGrafo = Graph!Node.allInstances().select(n | n.name = arco.from.name)->first();
 			nodoDestinoGrafo = Graph!Node.allInstances().select(n | n.name = arco.`to`.name)->first();
@@ -31,5 +33,41 @@ rule Petrinet2Graph
 			var edgeGrafo : new Graph!Edge;
 			edgeGrafo.source = nodoOrigenGrafo;
 			edgeGrafo.target = nodoDestinoGrafo;
+			//edgeGrafo.println();
+			//Finalmente
 		}
 	}
+	
+	
+//Convertir transiciones en nodos	
+rule Transition2Node 
+	transform  t : Petrinet!Transition
+	to n : Graph!Node {
+	//"Transition "+t.println();
+	n.name = t.name;
+	//"nodo "+n.println();
+		
+	}
+		
+//Convertir places en nodos	
+rule Place2Node 
+	transform  p : Petrinet!Place
+	to n : Graph!Node {
+	//"Place "+p.println();
+	n.name = p.name;
+}	
+
+//Convertir Arc en Edge	
+rule Arc2Edge 
+	transform  a : Petrinet!Arc
+	to e : Graph!Edge {	
+		 //"Place "+a.from.println();
+		 //"Place "+a.`to`.println();
+		  e.source = a.from.equivalent();
+		 e.target = a.`to`.equivalent();	
+		 //"Edge "+e.source.println();
+		 //"Edge "+e.target.println();
+		 //e.id = a.name ;
+			 
+}	
+	

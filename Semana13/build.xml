@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<project default="build">
+
+<property name="generated.location" location="${basedir}/generated"/>
+
+<property name="transformations.location" location="${basedir}/transformations"/>
+
+<property name="models.location" location="${basedir}/models"/>
+
+<property name="metamodels.location" location="${basedir}/metamodels"/>
+
+<property name="graph.metamodel.location" location="${metamodels.location}/graph.ecore" />
+
+<property name="graph.metamodel.uri" value="Graph" />
+
+<property name="petrinet.metamodel.uri" value="http://www.example.org/petrinet2" />
+
+<target name="build">
+
+  <echo>Borrando el contenido de la carpeta generated</echo>
+
+   <delete dir="${generated.location}" failonerror="true" />
+
+<antcall target="m2m" />
+
+</target>
+
+<target name="m2m">
+
+  <echo>Realizar transformación ETL</echo>
+
+<epsilon.emf.register file="${graph.metamodel.location}"/>
+
+<epsilon.emf.loadModel name="Graph" modelfile="${generated.location}/generado.graph" metamodeluri="${graph.metamodel.uri}" read="false" store="true" />
+
+<epsilon.emf.loadModel name="Petrinet" modelfile="${models.location}/entrada.petrinet2" metamodeluri="${petrinet.metamodel.uri}" read="true" store="false" />
+
+<epsilon.etl src="${transformations.location}/m2m/Petrinet2Graph.etl">
+
+  <model ref="Graph" />
+
+<model ref="Petrinet" />
+
+  </epsilon.etl>
+
+<antcall target="m2t" />
+
+</target>
+
+<target name="m2t">
+
+  <echo>Corriendo Template EGL</echo>
+
+<epsilon.emf.register file="${graph.metamodel.location}"/>
+
+  <epsilon.emf.loadModel name="Graph" modelfile="${generated.location}/generado.graph" metamodeluri="${graph.metamodel.uri}" read="true" store="true" />
+
+<epsilon.egl src="${transformations.location}/m2t/master.egl">
+
+  <model ref="Graph" />
+
+  </epsilon.egl>
+
+  </target>
+
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Graph="Graph" xsi:schemaLocation="Graph ../metamodels/graph.ecore">
+  <Graph:Graph>
+    <nodes name="t1">
+      <outgoing target="/0/@nodes.1"/>
+    </nodes>
+    <nodes name="p1" incoming="/0/@nodes.0/@outgoing.0">
+      <outgoing target="/0/@nodes.2"/>
+    </nodes>
+    <nodes name="t2" incoming="/0/@nodes.1/@outgoing.0">
+      <outgoing target="/0/@nodes.3"/>
+    </nodes>
+    <nodes name="p2" incoming="/0/@nodes.2/@outgoing.0">
+      <outgoing target="/0/@nodes.4"/>
+    </nodes>
+    <nodes name="t3" incoming="/0/@nodes.3/@outgoing.0"/>
+  </Graph:Graph>
+  <Graph:Node name="t1">
+    <outgoing target="/4"/>
+  </Graph:Node>
+  <Graph:Node name="t2" incoming="/4/@outgoing.0">
+    <outgoing target="/5"/>
+  </Graph:Node>
+  <Graph:Node name="t3" incoming="/5/@outgoing.0"/>
+  <Graph:Node name="p1" incoming="/1/@outgoing.0">
+    <outgoing target="/2"/>
+  </Graph:Node>
+  <Graph:Node name="p2" incoming="/2/@outgoing.0">
+    <outgoing target="/3"/>
+  </Graph:Node>
+</xmi:XMI>
