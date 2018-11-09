@@ -1,0 +1,62 @@
+@model
+operation loadModels() {
+	runTarget("load-models");
+}
+
+@test
+operation transformationWorksAsExpected() {
+	runTarget("iot2simplejava");
+	
+	// Mas de un application?
+	if (SimpleJava!Application.all.size() <> 1)
+		fail("Solo debe haber un application");
+		
+	// Mas de un class?
+	if (SimpleJava!Class.all.size() <> 1)
+		fail("Solo debe haber un class");
+		
+	// Mas de un method?
+	if (SimpleJava!Method.all.size() <> 1)
+		fail("Solo debe haber un method");
+		
+	// Mas de un Body?
+	if (SimpleJava!Body.all.size() <> 1)
+		fail("Solo debe haber un body");
+		
+	// Son 5 statements
+	if (SimpleJava!MethodCallStatement.all.size() <> 5)
+		fail("Deben haber 5 method call statements");
+		
+	// Navegar
+	if (SimpleJava!Application.all.get(0).classes.size() <> 1)
+		fail("El class no esta dentro del application");
+		
+	if (SimpleJava!Application.all.get(0).classes.at(0).methods.size() <> 1)
+		fail("El method no esta dentro del class");
+	
+	if (SimpleJava!Application.all.get(0).classes.at(0).methods.body == null)
+		fail("El body no esta dentro del class");
+		
+	assertEquals(5, SimpleJava!Application.all.get(0).classes.at(0).methods.body.statements->flatten().size());
+		
+	// Verificar que tengan las propiedades
+	var statements = SimpleJava!Application.all.get(0).classes.at(0).methods.body.statements->flatten();
+	for (statement in statements)
+	{
+		if (statement.name <> "get" and statement.name <> "post")
+			fail("Cada statement debe ser del tipo post o get");
+		
+		if (statement.arguments.size() <> 1)
+			fail("Cada statement debe tener un argumento");
+			
+		if (statement.arguments.at(0).value = "" or statement.arguments.at(0).value.substring(0, 1) <> "/")
+			fail("Cada statement debe contener la url provista por el resource");
+	}
+	
+	// Contar get y post
+	if (statements.select(s | s.name = "get").size() <> 3)
+		fail("Deben ser 3 statements con nombre get");
+		
+	if (statements.select(s | s.name = "post").size() <> 2)
+		fail("Deben ser 3 statements con nombre post");
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iotsystem:IotSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iotsystem="http://www.uniandes.edu.co/iot/system">
+  <physicalEntities name="Wiring">
+    <devices xsi:type="iotsystem:Sensor" name="Temperatura" consumes="//@digitalArtifacts.0/@resources.0"/>
+    <devices xsi:type="iotsystem:Sensor" name="Light" consumes="//@digitalArtifacts.0/@resources.2"/>
+  </physicalEntities>
+  <physicalEntities name="Telefono">
+    <devices xsi:type="iotsystem:Actuator" name="App Android" consumes="//@digitalArtifacts.0/@resources.0 //@digitalArtifacts.0/@resources.1 //@digitalArtifacts.0/@resources.2"/>
+  </physicalEntities>
+  <digitalArtifacts name="IotServer">
+    <resources url="/temperature"/>
+    <resources url="/alerts"/>
+    <resources url="/light" measurement="LIGHT"/>
+    <rules name="Temperature > 35">
+      <actions/>
+      <condition expectedValue="35.0" variable="//@physicalEntities.0/@devices.0"/>
+    </rules>
+  </digitalArtifacts>
+</iotsystem:IotSystem>

@@ -1,0 +1,45 @@
+<project>
+	<!-- Estas propiedades definen la ubicación de los modelos, metamodelos y las URI de los mismos -->
+	<property name="models.location" location="${basedir}/models" />
+	<property name="java.model.location" location="${models.location}/java-esperado.xmi" />
+	<property name="javagenerado.model.location" location="${models.location}/java-generado.xmi" />
+	<property name="iotsystem.model.location" location="${models.location}/ConfortTermico.xmi" />
+	<property name="metamodels.location" location="${basedir}/metamodels" />
+	<property name="java.metamodel.location" location="${metamodels.location}/SimpleJava.ecore" />
+	<property name="iotsystem.metamodel.location" location="${metamodels.location}/petrinet.ecore" />
+	<property name="java.metamodel.uri" value="SimpleJava" />
+	<property name="iotsystem.metamodel.uri" value="http://www.uniandes.edu.co/iot/system" />
+	
+	<!-- Estas propiedades definen la ubicación de los tests (archivos eunit)  -->
+	<property name="tests.location" location="${basedir}/tests"/>
+	<property name="anttargetmodels.eunit.location" location="${tests.location}/ant-target.eunit"/>
+
+	<!-- Este target se encarga de registrar los metamodelos de Petrinet y de Graph -->
+	<target name="with-model-loading-target" description="Registra los metamodelos">
+		<epsilon.emf.register file="${java.metamodel.location}"/>
+		<epsilon.eunit src="${anttargetmodels.eunit.location}"/>
+	</target>
+
+	<!-- Este target se lanzará desde un método del archivo EUnit anotado con @models. Esto es útil cuando se desea reusar las mismas tareas para la carga de modelos entre distintas test suites.-->
+	<target name="load-models" description="Carga los modelos según el metamodelo de cada uno">
+		<epsilon.emf.loadModel name="Iot"
+			modelfile="${iotsystem.model.location}" metamodeluri="${iotsystem.metamodel.uri}"
+			read="true" store="false"/>
+		
+		<epsilon.emf.loadModel name="SimpleJavaExpected"
+			modelfile="${java.model.location}" metamodeluri="${java.metamodel.uri}"
+			read="true" store="false"/>
+			
+		<epsilon.emf.loadModel name="SimpleJava"
+			modelfile="${javagenerado.model.location}" metamodeluri="${java.metamodel.uri}"
+			read="false" store="false"/>
+	</target>
+
+	<!-- Target encargado de ejecutar la transformación -->
+	<target name="iot2simplejava">
+		<epsilon.etl src="${basedir}/transformations/M2M/Iot2SimpleJava.etl">
+			<model ref="Iot"/>
+			<model ref="SimpleJava"/>
+		</epsilon.etl>
+	</target>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ASCII"?>
+<SimpleJava:Application
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:SimpleJava="SimpleJava"
+    name="IotSystem">
+  <classes name="Enrouter">
+    <methods
+        name="Enrouter">
+      <body>
+        <statements
+            xsi:type="SimpleJava:MethodCallStatement"
+            name="get">
+          <arguments
+              xsi:type="SimpleJava:StringLiteral"
+              value="/temperature"/>
+        </statements>
+        <statements
+            xsi:type="SimpleJava:MethodCallStatement"
+            name="get">
+          <arguments
+              xsi:type="SimpleJava:StringLiteral"
+              value="/alerts"/>
+        </statements>
+        <statements
+            xsi:type="SimpleJava:MethodCallStatement"
+            name="get">
+          <arguments
+              xsi:type="SimpleJava:StringLiteral"
+              value="/light"/>
+        </statements>
+        <statements
+            xsi:type="SimpleJava:MethodCallStatement"
+            name="post">
+          <arguments
+              xsi:type="SimpleJava:StringLiteral"
+              value="/temperature"/>
+        </statements>
+        <statements
+            xsi:type="SimpleJava:MethodCallStatement"
+            name="post">
+          <arguments
+              xsi:type="SimpleJava:StringLiteral"
+              value="/light"/>
+        </statements>
+      </body>
+    </methods>
+  </classes>
+</SimpleJava:Application>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Petrinet:Petrinet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Petrinet="Petrinet">
+  <elements xsi:type="Petrinet:Place" name="P1"/>
+  <elements xsi:type="Petrinet:Place" name="P2"/>
+  <elements xsi:type="Petrinet:Place" name="P3"/>
+  <elements xsi:type="Petrinet:Place" name="P4"/>
+  <elements xsi:type="Petrinet:Place" name="P5"/>
+  <elements xsi:type="Petrinet:Transition" name="T1"/>
+  <elements xsi:type="Petrinet:Transition" name="T2"/>
+  <elements xsi:type="Petrinet:Transition" name="T3"/>
+  <elements xsi:type="Petrinet:Transition" name="T4"/>
+  <elements xsi:type="Petrinet:InputArc" name="IA1" dest="//@elements.5" src="//@elements.4"/>
+  <elements xsi:type="Petrinet:InputArc" name="IA2" dest="//@elements.6" src="//@elements.0"/>
+  <elements xsi:type="Petrinet:InputArc" name="IA3" dest="//@elements.7" src="//@elements.1"/>
+  <elements xsi:type="Petrinet:InputArc" name="IA4" dest="//@elements.8" src="//@elements.2"/>
+  <elements xsi:type="Petrinet:InputArc" name="IA5" dest="//@elements.8" src="//@elements.3"/>
+  <elements xsi:type="Petrinet:OutputArc" name="OA1" src="//@elements.5" dest="//@elements.0"/>
+  <elements xsi:type="Petrinet:OutputArc" name="OA2" src="//@elements.5" dest="//@elements.1"/>
+  <elements xsi:type="Petrinet:OutputArc" name="OA3" src="//@elements.6" dest="//@elements.2"/>
+  <elements xsi:type="Petrinet:OutputArc" name="OA4" src="//@elements.7" dest="//@elements.3"/>
+  <elements xsi:type="Petrinet:OutputArc" name="OA5" src="//@elements.8" dest="//@elements.4"/>
+</Petrinet:Petrinet>
