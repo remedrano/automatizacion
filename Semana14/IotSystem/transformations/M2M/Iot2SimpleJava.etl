@@ -1,1 +1,82 @@
 // COMPLETAR!
+
+//Transformar IotSystem a Application
+rule IotSystem2Application
+	transform i : iot!IotSystem
+	to a : simplejava!Application { 
+		a.classes = i.digitalArtifacts.equivalent();		
+		for( c in a.classes){
+			a.name = c.name;
+			var m = createMethod( c );
+			c.methods.add( m );
+			var b = new simplejava!Body;
+			m.body = b;
+			addMethodCallStatement( i , b);
+			
+		}	
+	}
+
+//Transformar DigitalArtifact a Classes
+rule DigitalArtifact2Classes
+	transform d : iot!DigitalArtifact
+	to c : simplejava!Class { 	
+		c.name = d.name;			
+	}
+
+//Crear nuevo metodo	
+operation createMethod( c:simplejava!Class ): simplejava!Method{
+	var m = new simplejava!Method;		
+	m.name = c.name;	
+	return m;
+}
+
+//Agregar metodos Recursos
+operation addMethodCallStatement( i:iot!IotSystem , b:simplejava!Body )  {
+
+	var digitalArtifacts = i.digitalArtifacts.collect(e | e);
+	for( digital in digitalArtifacts  ){
+		var resources = digital.resources.collect(r | r);
+		for( resource in resources){
+			var devices = i.collect( p | p.physicalEntities).flatten().collect( d | d.devices ).flatten();	
+			var consumidoActuadores = 0;					
+			var consumidoSensores = 0;
+			for( device in devices){				
+				for( resourceDevice in device.consumes){					
+					if( resource == resourceDevice ){
+						if(  device.isTypeOf( Sensor ) ) { //Consumido por Sensores
+							consumidoSensores += 1;
+						}
+						if(  device.isTypeOf( Actuator ) ){ //Consumido por Actuators
+							consumidoActuadores += 1;
+						}						
+					}
+				}							
+			}
+			
+			if( consumidoSensores > 0){ //colocar metodos get consumido por actuator
+				var metodoCallStament = createMethodCallStament( 'get',  resource.url);
+				b.statements.add( metodoCallStament );
+			}
+			
+			if( consumidoActuadores > 0){ //colocar metodos post consumido por sensor
+				var metodoCallStament = createMethodCallStament( 'post',  resource.url);
+				b.statements.add( metodoCallStament );
+			}
+			//consumidoActuadores.println();
+			//consumidoSensores.println();
+			//resource.println();			
+		}
+	}	
+}
+
+//Crear metodo y string literal
+operation createMethodCallStament(name:String, literal:String) : simplejava!MethodCallStatement{
+	var stringLiteral = new simplejava!StringLiteral;
+	var method = new simplejava!MethodCallStatement;
+	stringLiteral.value = literal;	
+	method.name = name;
+	method.arguments.add( stringLiteral );
+	return method;
+}
+
+	
