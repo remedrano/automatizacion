@@ -1,0 +1,95 @@
+<project>
+
+<!-- Estas propiedades definen la ubicación de los modelos, metamodelos y las URI de los mismos -->
+
+<property name="models.location" location="${basedir}/models" />
+
+<!--<property name="graph.model.location" location="${models.location}/graph-esperado.xmi" />-->
+	
+<property name="graph.model.location" location="${models.location}/graph-avanzado-esperado.xmi" />
+
+<property name="graphgenerado.model.location" location="${models.location}/graph-generado.xmi" />
+
+<!--<property name="petrinet.model.location" location="${models.location}/PetriNet.xmi" />-->
+
+<property name="petrinet.model.location" location="${models.location}/PetriNetAvanzado.xmi" />
+	
+
+<property name="metamodels.location" location="${basedir}/metamodels" />
+
+<property name="graph.metamodel.location" location="${metamodels.location}/graph.ecore" />
+
+<property name="petrinet.metamodel.location" location="${metamodels.location}/petrinet.ecore" />
+
+<property name="graph.metamodel.uri" value="Graph" />
+
+<property name="petrinet.metamodel.uri" value="Petrinet" />
+
+<!-- Estas propiedades definen la ubicación de los tests (archivos eunit)  -->
+
+<property name="tests.location" location="${basedir}/tests"/>
+
+<!--<property name="anttargetmodels.eunit.location" location="${tests.location}/load-models-running-ant-target.eunit"/>-->
+
+<property name="anttargetmodels.eunit.location" location="${tests.location}/doing-advanced-testing.eunit"/>
+
+<!-- Este target se encarga de registrar los metamodelos de Petrinet y de Graph -->
+
+<target name="with-model-loading-target" description="Registra los metamodelos">
+
+<epsilon.emf.register file="${petrinet.metamodel.location}"/>
+
+<epsilon.emf.register file="${graph.metamodel.location}"/>
+
+<epsilon.eunit src="${anttargetmodels.eunit.location}"/>
+
+</target>
+
+ 
+<!-- Este target se lanzará desde un método del archivo EUnit anotado con @models. Esto es útil cuando se desea reusar las mismas tareas para la carga de modelos entre distintas test suites.-->
+
+<target name="load-models" description="Carga los modelos según el metamodelo de cada uno">
+
+<epsilon.emf.loadModel name="Petrinet"
+
+modelfile="${petrinet.model.location}" metamodeluri="${petrinet.metamodel.uri}"
+
+read="true" store="false"/>
+
+<!--<epsilon.emf.loadModel name="GraphExpected"
+
+modelfile="${graph.model.location}" metamodeluri="${graph.metamodel.uri}"
+
+read="true" store="false"/>-->
+	
+<epsilon.emf.loadModel name="GraphExpectedAvanzado"
+
+modelfile="${graph.model.location}" metamodeluri="${graph.metamodel.uri}"
+
+read="true" store="false"/>
+
+<epsilon.emf.loadModel name="Graph"
+
+modelfile="${graphgenerado.model.location}" metamodeluri="${graph.metamodel.uri}"
+
+read="false" store="false"/>
+
+</target>
+
+<!-- Target encargado de ejecutar la transformación -->
+
+<target name="petrinet2graph">
+
+<epsilon.etl src="${basedir}/Petrinet2Graph.etl">
+
+<model ref="Petrinet"/>
+
+<model ref="Graph"/>
+
+</epsilon.etl>
+
+</target>
+
+</project>
+
+

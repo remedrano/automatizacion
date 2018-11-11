@@ -1,0 +1,10 @@
+@model
+operation loadModels() {
+  runTarget("load-models");
+}
+
+@test
+operation transformationWorksAsExpected() {
+  runTarget("petrinet2graph");
+  assertEqualModels("GraphExpected", "Graph");
+}

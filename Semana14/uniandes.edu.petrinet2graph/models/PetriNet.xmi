@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
-<petrinet:Petrinet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:petrinet="Petrinet">
-  <elements xsi:type="petrinet:InputArc" name="IA1" dest="//@elements.4" src="//@elements.2"/>
-  <elements xsi:type="petrinet:OutputArc" name="OA1" src="//@elements.4" dest="//@elements.3"/>
-  <elements xsi:type="petrinet:Place" name="P1"/>
-  <elements xsi:type="petrinet:Place" name="P2"/>
-  <elements xsi:type="petrinet:Transition" name="T1"/>
-</petrinet:Petrinet>
+<Petrinet:Petrinet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Petrinet="Petrinet">
+  <elements xsi:type="Petrinet:InputArc" name="IA1" dest="//@elements.4" src="//@elements.2"/>
+  <elements xsi:type="Petrinet:OutputArc" name="OA1" src="//@elements.4" dest="//@elements.3"/>
+  <elements xsi:type="Petrinet:Place" name="P1"/>
+  <elements xsi:type="Petrinet:Place" name="P2"/>
+  <elements xsi:type="Petrinet:Transition" name="T1"/>
+</Petrinet:Petrinet>

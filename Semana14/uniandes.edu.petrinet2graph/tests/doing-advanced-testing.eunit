@@ -1,0 +1,22 @@
+@model
+operation loadModels() {
+  runTarget("load-models");
+}
+
+@test
+operation nodosNoHuerfanos(){
+	runTarget("petrinet2graph");
+	var graph = Graph!Node.allInstances;	
+	for (node in graph){
+		var varValidar = ( node.outgoing.size() == 0 and node.incoming.size() == 0 );
+		assertFalse("Existen nodos huerfanos" , varValidar );	
+	}
+}
+
+
+@test
+operation transformationWorksAsExpectedPetrinetAvanzado(){
+	runTarget("petrinet2graph");
+	"Entamos aca".println();
+  	assertEqualModels("GraphExpectedAvanzado", "Graph");
+}

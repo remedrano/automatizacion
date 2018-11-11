@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="ASCII"?>
-<Graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Graph="Graph">
-  <nodes name="N1">
-    <outgoing target="//@nodes.1"/>
-  </nodes>
-  <nodes name="N2" incoming="//@nodes.0/@outgoing.0">
-    <outgoing target="//@nodes.2"/>
-  </nodes>
-  <nodes name="N3" incoming="//@nodes.1/@outgoing.0"/>
-</Graph:Graph>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Graph="Graph">
+  <Graph:Graph>
+    <nodes name="P5" incoming="/1/@nodes.7/@outgoing.0">
+      <outgoing target="/1/@nodes.1"/>
+    </nodes>
+    <nodes name="T1" incoming="/1/@nodes.0/@outgoing.0">
+      <outgoing target="/1/@nodes.2"/>
+      <outgoing target="/1/@nodes.4"/>
+    </nodes>
+    <nodes name="P1" incoming="/1/@nodes.1/@outgoing.0">
+      <outgoing target="/1/@nodes.3"/>
+    </nodes>
+    <nodes name="T2" incoming="/1/@nodes.2/@outgoing.0">
+      <outgoing target="/1/@nodes.6"/>
+    </nodes>
+    <nodes name="P2" incoming="/1/@nodes.1/@outgoing.1">
+      <outgoing target="/1/@nodes.5"/>
+    </nodes>
+    <nodes name="T3" incoming="/1/@nodes.4/@outgoing.0">
+      <outgoing target="/1/@nodes.8"/>
+    </nodes>
+    <nodes name="P3" incoming="/1/@nodes.3/@outgoing.0">
+      <outgoing target="/1/@nodes.7"/>
+    </nodes>
+    <nodes name="T4" incoming="/1/@nodes.6/@outgoing.0 /1/@nodes.8/@outgoing.0">
+      <outgoing target="/1/@nodes.0"/>
+    </nodes>
+    <nodes name="P4" incoming="/1/@nodes.5/@outgoing.0">
+      <outgoing target="/1/@nodes.7"/>
+    </nodes>
+  </Graph:Graph>
+</xmi:XMI>
